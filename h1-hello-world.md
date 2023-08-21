@@ -1,3 +1,3 @@
-# h1 - Hello world
+# Hello
 
 Task 1
