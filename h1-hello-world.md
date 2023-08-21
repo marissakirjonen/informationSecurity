@@ -8,4 +8,5 @@ Create an account on GitHub and make a page
 Karvinen Information Security 2023: https://terokarvinen.com/2023/create-a-web-page-using-github/?fromSearch=github 
 
 Here's an image!
+
 ![image](https://github.com/marissakirjonen/informationSecurity/assets/142782994/1a33b01c-25a9-4407-8a6e-4b9b8b495ba2)
