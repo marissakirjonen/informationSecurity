@@ -13,7 +13,7 @@
 #### •	A forum where people buy and sell rare social media account usernames, from e.g., Instagram, Kik. 
 #### •	The high-value and sought-after usernames are short, single words or phrases, e.g., “@”, some go up to 350 dollars. 
 #### •	Swapping within the site refers to gaining access to a username, e.g., through hacking or buying on the site, log into that account, switching the username, and then making a new account with the stolen username. 
-####   (```)   o	This prevents the user whose account was stolen from being able to report this, because the username was changed. 
+####        o	This prevents the user whose account was stolen from being able to report this, because the username was changed. 
 ####     o	However other users of OGUsers also want the username, so they try to “snipe” (steal) the username from the scammer. This causes users on the forum to             attack each other.
 ##
 ### SIM-swapping
