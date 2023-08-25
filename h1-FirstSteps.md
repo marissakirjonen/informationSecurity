@@ -13,17 +13,17 @@
 #### •	A forum where people buy and sell rare social media account usernames, from e.g., Instagram, Kik. 
 #### •	The high-value and sought-after usernames are short, single words or phrases, e.g., “@”, some go up to 350 dollars. 
 #### •	Swapping within the site refers to gaining access to a username, e.g., through hacking or buying on the site, log into that account, switching the username, and then making a new account with the stolen username. 
-#### o	This prevents the user whose account was stolen from to be able to report this, because the username was changed. 
-#### o	However other users of OGUsers also want the username, so they try to “snipe” (steal) the username from the scammer. This causes users on the forum to attack each other.
+####     o	This prevents the user whose account was stolen from being able to report this, because the username was changed. 
+####     o	However other users of OGUsers also want the username, so they try to “snipe” (steal) the username from the scammer. This causes users on the forum to             attack each other.
 ##
 ### SIM-swapping
 #### •	SIM-swapping is tricking telecommunications carriers, pretending to be the victim, or having an insider (manager/employee), to switch a phone number over to another sim card. 
-#### o	Number is used to bypass two-factor authentication (2FA) that is used commonly on sites. 
+####     o	Number is used to bypass two-factor authentication (2FA) that is used commonly on sites. 
 #### •	Targets people with high-value usernames, as discussed earlier, bank-logs, and cryptocurrency wallets.
 #### •	Data breaches typically give the attacker information on the name, email address, phone number and physical address. 
-#### o	cross-reference the email address with other data breaches to see if the user reuses passwords, then hackers have access to multiple of your accounts.
-#### o	These can be sold online as well, which is called selling logs. 
-#### 	For instance, ordering food using stolen credentials from delivery service apps: “food logs” (logs refers to username and password)
+####     o	cross-reference the email address with other data breaches to see if the user reuses passwords, then hackers have access to multiple of your accounts.
+####     o	These can be sold online as well, which is called selling logs. 
+
 ##
 ### Importance of digital vigilance: “Don’t be doxxable” – Drew
 #### •	Don’t screenshare with untrusted users.
@@ -40,23 +40,22 @@
 
 #### •	Traditional security defense tools, part of Computer Network Defense (CND) assume breaches are inevitable and will focus on protecting vulnerable spots in the systems. This has been since deemed not useful for certain new threats.
 #### •	New threats, Advanced Persistent Threats (APT) bring new challenges:
-#### o	well-funded and skilled cyberattacks to steal sensitive data over long periods.
+####     o	well-funded and skilled cyberattacks to steal sensitive data over long periods.
 #### •	A more modern defense strategy for these sophisticated attacks is predicting and countering threats: tracking the steps and finding patterns.  
-#### o	A component of advanced CND is the kill chain model used within defense to track attacker during intrusion. 
-#### 	By continuing this for a long period of time, it’s more difficult for the hackers to succeed, since they have gained more information. 
+####     o	A component of advanced CND is the kill chain model used within defense to track attackers during intrusion.  
 
 ##  
 ### 3.2 Intrusion Kill Chain
 
 #### •	A kill chain is a model used in cyber intrusions detailing steps attackers use to gain data.
 #### •	The model consists of:
-#### 1.	Reconnaissance: attacker researchers target and gains personal information e.g., email addresses.
-#### 2.	Weaponization: attacker creates trojan to gain access through software like PDF or Microsoft office documents. 
-#### 3.	Delivery: software is sent to the user through most commonly email attachments, websites, or USB drives.
-#### 4.	Exploitation: software activates by vulnerabilities or proceeds to trick the user. The payload is triggered. 
-#### 5.	Installation: trojan or backdoor to remotely access user’s system is set up for continuous access.
-#### 6.	Command and Control (C2): connection is acquired allowing for interaction for the attacker. 
-#### 7.	Actions on Objectives: attacks objectives begin (stealing data, damaging the system, attacking others) 
+####     1.	Reconnaissance: attacker researchers target and gains personal information e.g., email addresses.
+####     2.	Weaponization: attacker creates trojan to gain access through software like PDF or Microsoft office documents. 
+####     3.	Delivery: software is sent to the user through most commonly email attachments, websites, or USB drives.
+####     4.	Exploitation: software activates by vulnerabilities or proceeds to trick the user. The payload is triggered. 
+####     5.	Installation: trojan or backdoor to remotely access user’s system is set up for continuous access.
+####     6.	Command and Control (C2): connection is acquired allowing for interaction for the attacker. 
+####     7.	Actions on Objectives: attacks objectives begin (stealing data, damaging the system, attacking others) 
 
 ##
 ### 3.3 Courses of Action
