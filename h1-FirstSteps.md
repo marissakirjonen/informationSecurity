@@ -20,7 +20,7 @@
 #### •	SIM-swapping is tricking telecommunications carriers, pretending to be the victim, or having an insider (manager/employee), to switch a phone number over to another sim card. 
 #### o	Number is used to bypass two-factor authentication (2FA) that is used commonly on sites. 
 #### •	Targets people with high-value usernames, as discussed earlier, bank-logs, and cryptocurrency wallets.
-####•	Data breaches typically give the attacker information on the name, email address, phone number and physical address. 
+#### •	Data breaches typically give the attacker information on the name, email address, phone number and physical address. 
 #### o	cross-reference the email address with other data breaches to see if the user reuses passwords, then hackers have access to multiple of your accounts.
 #### o	These can be sold online as well, which is called selling logs. 
 #### 	For instance, ordering food using stolen credentials from delivery service apps: “food logs” (logs refers to username and password)
