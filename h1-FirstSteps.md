@@ -21,8 +21,10 @@
 ####     o	Number is used to bypass two-factor authentication (2FA) that is used commonly on sites. 
 #### •	Targets people with high-value usernames, as discussed earlier, bank-logs, and cryptocurrency wallets.
 #### •	Data breaches typically give the attacker information on the name, email address, phone number and physical address. 
+<blockquote>
 ####     o	cross-reference the email address with other data breaches to see if the user reuses passwords, then hackers have access to multiple of your accounts.
 ####     o	These can be sold online as well, which is called selling logs. 
+</blockquote>
 
 ##
 ### Importance of digital vigilance: “Don’t be doxxable” – Drew
@@ -32,9 +34,7 @@
 #### •	Avoid sharing personal details, address, phone number, birthdate on public sites
 
 ### References https://darknetdiaries.com/transcript/112/ 
-<blockquote>
-This is indented text.
-</blockquote>
+
 ##
 # Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains Summary
 
