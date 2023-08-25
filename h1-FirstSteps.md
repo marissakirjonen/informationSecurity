@@ -31,8 +31,10 @@
 #### •	Don’t use the same emails or reuse passwords.
 #### •	Avoid sharing personal details, address, phone number, birthdate on public sites
 
-
-
+### References https://darknetdiaries.com/transcript/112/ 
+<blockquote>
+This is indented text.
+</blockquote>
 ##
 # Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains Summary
 
