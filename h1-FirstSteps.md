@@ -1,10 +1,10 @@
 # Darknet Diaries Episode 112 - Dirty Coms
-### The episode gives a peek into the world of scamming, people as young as 15 years old scamming for millions of dollars. The interest is primarily profit-driven. The guest on the podcast, Drew, is a former internet scammer who has experience firsthand, from both scamming and being the victim of this type of scam. 
+#### The episode gives a peek into the world of scamming, people as young as 15 years old scamming for millions of dollars. The interest is primarily profit-driven. The guest on the podcast, Drew, is a former internet scammer who has experience firsthand, from both scamming and being the victim of this type of scam. 
 ##
 ### Roblox and Robux
-### •	Drew’s scamming started on the gaming platform Roblox where he exploited young players eager to gain the in-game currency called robux.
-### •	His group made a profit off people on this site by creating platforms where players can watch ads to gain in-game currency while making a profit themselves in the process.
-### •	Scammers can clone the actual website and attack the real website to shut it down. People join fake websites where the scammers would gain profits from it for themselves (people buying in-game currency)
+#### •	Drew’s scamming started on the gaming platform Roblox where he exploited young players eager to gain the in-game currency called robux.
+#### •	His group made a profit off people on this site by creating platforms where players can watch ads to gain in-game currency while making a profit themselves in the process.
+#### •	Scammers can clone the actual website and attack the real website to shut it down. People join fake websites where the scammers would gain profits from it for themselves (people buying in-game currency)
 
 ## Vanilla Gift Card Scam
 ## •	Drew and his group set up phishing pages for vanilla gift cards, prepaid gift cards, to check their balance. To get their fake website to the top of the Google search engine, instead of the actual site, they would utilize Google ads. People would enter their card details, which would be sold onward. 
