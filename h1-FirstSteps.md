@@ -32,8 +32,11 @@
 #### •	Don’t use the same emails or reuse passwords.
 #### •	Avoid sharing personal details, addresses, phone numbers, and birthdates on public sites
 
-### References
+##
+### Reference
 #### Darknet Diaries 8 March 2022. 112: Dirty Coms. Darknet Diaries. URL: https://darknetdiaries.com/transcript/112/. Accessed: 24 August 2023. 
+
+##
 
 ### Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains Summary
 
@@ -64,4 +67,8 @@
 #### •	The kill chain offers a course of action to defend against attacks.
 #### •	Courses of action explain six ways to prevent attacks at each phase of intrusion: detect, deny, disrupt, degrade, deceive, and destroy. 
 
-### Reference https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf 
+## 
+### Reference 
+### Hutchins, E., Cloppert, M. & Amin, R. s.a. Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. lockheedmartin. URL: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf. Accessed: 24 August 2023. 
+
+## 
