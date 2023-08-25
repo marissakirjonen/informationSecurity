@@ -34,7 +34,7 @@
 
 ##
 ### Reference
-#### Darknet Diaries 8 March 2022. 112: Dirty Coms. Darknet Diaries. URL: https://darknetdiaries.com/transcript/112/. Accessed: 24 August 2023. 
+#### Darknet Diaries. 8 March 2022. 112: Dirty Coms. Darknet Diaries. URL: https://darknetdiaries.com/transcript/112/. Accessed: 24 August 2023. 
 
 ##
 
