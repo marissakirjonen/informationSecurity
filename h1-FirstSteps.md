@@ -10,33 +10,32 @@
 #### •	Drew and his group set up phishing pages for vanilla gift cards, prepaid gift cards, to check their balance. To get their fake website to the top of the Google search engine, instead of the actual site, they would utilize Google ads. People would enter their card details, which would be sold onward. 
 ##
 ### OGUsers
-#### •	A forum where people buy and sell rare social media account usernames, from e.g., Instagram, Kik. 
+#### •	A forum where people buy and sell rare social media account usernames, e.g., Instagram, Kik. 
 #### •	The high-value and sought-after usernames are short, single words or phrases, e.g., “@”, some go up to 350 dollars. 
-#### •	Swapping within the site refers to gaining access to a username, e.g., through hacking or buying on the site, log into that account, switching the username, and then making a new account with the stolen username. 
-####        o	This prevents the user whose account was stolen from being able to report this, because the username was changed. 
+#### •	Swapping within the site refers to gaining access to a username, e.g., through hacking or buying on the site, logging into that account, switching the username, and then making a new account with the stolen username. 
+####        o	This prevents the user whose account was stolen from being able to report this because the username was changed. 
 ####     o	However other users of OGUsers also want the username, so they try to “snipe” (steal) the username from the scammer. This causes users on the forum to             attack each other.
 ##
 ### SIM-swapping
-#### •	SIM-swapping is tricking telecommunications carriers, pretending to be the victim, or having an insider (manager/employee), to switch a phone number over to another sim card. 
+#### •	SIM-swapping is tricking telecommunications carriers, pretending to be the victim, or having an insider (manager/employee), switch a phone number over to another sim card. 
 ####     o	Number is used to bypass two-factor authentication (2FA) that is used commonly on sites. 
-#### •	Targets people with high-value usernames, as discussed earlier, bank-logs, and cryptocurrency wallets.
-#### •	Data breaches typically give the attacker information on the name, email address, phone number and physical address. 
-<blockquote>
+#### •	Targets people with high-value usernames, as discussed earlier, bank logs, and cryptocurrency wallets.
+#### •	Data breaches typically give the attacker information on the name, email address, phone number, and physical address. 
 ####     o	cross-reference the email address with other data breaches to see if the user reuses passwords, then hackers have access to multiple of your accounts.
 ####     o	These can be sold online as well, which is called selling logs. 
-</blockquote>
+
 
 ##
 ### Importance of digital vigilance: “Don’t be doxxable” – Drew
 #### •	Don’t screenshare with untrusted users.
 #### •	Don’t link personal accounts, e.g., Spotify on sites like Discord, where people can gain your personal information.
 #### •	Don’t use the same emails or reuse passwords.
-#### •	Avoid sharing personal details, address, phone number, birthdate on public sites
+#### •	Avoid sharing personal details, addresses, phone numbers, and birthdates on public sites
 
-### References https://darknetdiaries.com/transcript/112/ 
+### References
+#### Darknet Diaries 8 March 2022. 112: Dirty Coms. Darknet Diaries. URL: https://darknetdiaries.com/transcript/112/. Accessed: 24 August 2023. 
 
-##
-# Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains Summary
+### Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains Summary
 
 ### Abstract
 
@@ -51,16 +50,18 @@
 
 #### •	A kill chain is a model used in cyber intrusions detailing steps attackers use to gain data.
 #### •	The model consists of:
-####     1.	Reconnaissance: attacker researchers target and gains personal information e.g., email addresses.
-####     2.	Weaponization: attacker creates trojan to gain access through software like PDF or Microsoft office documents. 
-####     3.	Delivery: software is sent to the user through most commonly email attachments, websites, or USB drives.
+####     1.	Reconnaissance: Attacker researchers target and gain personal information e.g., email addresses.
+####     2.	Weaponization: The attacker creates a trojan to gain access through software like PDF or Microsoft Office documents. 
+####     3.	Delivery: Software is sent to the user through most commonly email attachments, websites, or USB drives.
 ####     4.	Exploitation: software activates by vulnerabilities or proceeds to trick the user. The payload is triggered. 
-####     5.	Installation: trojan or backdoor to remotely access user’s system is set up for continuous access.
-####     6.	Command and Control (C2): connection is acquired allowing for interaction for the attacker. 
-####     7.	Actions on Objectives: attacks objectives begin (stealing data, damaging the system, attacking others) 
+####     5.	Installation: A trojan or backdoor to remotely access the user’s system is set up for continuous access.
+####     6.	Command and Control (C2): connection is acquired allowing for interaction with the attacker. 
+####     7.	Actions on Objectives: Attack objectives begin (stealing data, damaging the system, attacking others) 
 
 ##
 ### 3.3 Courses of Action
 
 #### •	The kill chain offers a course of action to defend against attacks.
-#### •	Courses of action explains six ways to prevent attacks at each phase of intrusion: detect, deny, disrupt, degrade, deceive, and destroy. 
+#### •	Courses of action explain six ways to prevent attacks at each phase of intrusion: detect, deny, disrupt, degrade, deceive, and destroy. 
+
+### Reference https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf 
