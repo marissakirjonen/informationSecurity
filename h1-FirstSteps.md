@@ -69,6 +69,4 @@
 
 ## 
 ### Reference 
-### Hutchins, E., Cloppert, M. & Amin, R. s.a. Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. lockheedmartin. URL: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf. Accessed: 24 August 2023. 
-
-## 
+#### Hutchins, E., Cloppert, M. & Amin, R. s.a. Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. lockheedmartin. URL: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf. Accessed: 24 August 2023. 
