@@ -75,7 +75,53 @@
 ##
 ### Installing Debian
 
-#### 
+#### I had VirtualBox already downloaded, so I needed to just download the correct Debian ISO image: debian-live-12.1.0-amd64-xfce.iso 
+
+![Näyttökuva 2023-08-26 024233](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a2153ea9-2140-48dd-b545-17408fbc2445)
+
+#### Adding the correct settings: 
+
+![Näyttökuva 2023-08-26 024308](https://github.com/marissakirjonen/informationSecurity/assets/142782994/9ecde25c-c772-4ca9-b9ac-d311d88f65cf)
+
+![Näyttökuva 2023-08-26 024336](https://github.com/marissakirjonen/informationSecurity/assets/142782994/f25d7197-61c1-441b-ad71-fc139924308d)
+
+![Näyttökuva 2023-08-26 024603](https://github.com/marissakirjonen/informationSecurity/assets/142782994/c58d63c6-6d1d-4c87-a082-7e5121e4eb89)
+
+#### Changing up the storage settings: 
+
+![Näyttökuva 2023-08-26 174724](https://github.com/marissakirjonen/informationSecurity/assets/142782994/4af81d55-2827-4d8a-8d92-29d78063eb87)
+
+#### Next I installed Debian: 
+
+![Näyttökuva 2023-08-26 174940](https://github.com/marissakirjonen/informationSecurity/assets/142782994/57cab30d-4254-4692-bd5f-fcc449b671e3)
+
+![Näyttökuva 2023-08-26 175059](https://github.com/marissakirjonen/informationSecurity/assets/142782994/cd4034cf-1b5d-4b80-a13e-c5e8ec23bbb2)
+
+![Näyttökuva 2023-08-26 175149](https://github.com/marissakirjonen/informationSecurity/assets/142782994/bc15c282-19ea-4ffa-8033-7c159e4e53d6)
+
+![Näyttökuva 2023-08-26 175217](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e5851109-4f97-4c8a-98d3-133510751950)
+
+![Näyttökuva 2023-08-26 175428](https://github.com/marissakirjonen/informationSecurity/assets/142782994/7438b201-f4fe-4def-a3b8-9adfbb557f23)
+
+![Näyttökuva 2023-08-26 175523](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e0138a79-5c8d-428b-8fd7-0c1852262fd0)
+
+![Näyttökuva 2023-08-26 175647](https://github.com/marissakirjonen/informationSecurity/assets/142782994/8eb8622e-4ab0-4f2a-b310-b69f091da6c8)
+
+![Näyttökuva 2023-08-26 175723](https://github.com/marissakirjonen/informationSecurity/assets/142782994/2de3e9f2-0f7b-45be-bd31-346515493719)
+
+#### Added a good password.
+![Näyttökuva 2023-08-26 175857](https://github.com/marissakirjonen/informationSecurity/assets/142782994/08e54bf0-3986-4cc8-90dc-1a9a9ce11611)
+
+![Näyttökuva 2023-08-26 175923](https://github.com/marissakirjonen/informationSecurity/assets/142782994/7d8e6049-c49b-4161-a001-8195d1df2984)
+
+![Näyttökuva 2023-08-26 175949](https://github.com/marissakirjonen/informationSecurity/assets/142782994/50ec1f4f-9aa2-4d10-b22b-8ed75c42469d)
+
+![Näyttökuva 2023-08-26 180913](https://github.com/marissakirjonen/informationSecurity/assets/142782994/c78aca4b-a818-4899-93da-5b9581aca931)
+
+#### Everything worked well and I checked the connection. 
+![Näyttökuva 2023-08-26 181019](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e8e9a82a-0fdd-4c79-96dc-d26d8315b8b1)
+
+
 
 
 ##
