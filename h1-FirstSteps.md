@@ -70,3 +70,14 @@
 ## 
 ### Reference 
 #### Hutchins, E., Cloppert, M. & Amin, R. s.a. Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. lockheedmartin. URL: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf. Accessed: 24 August 2023. 
+
+
+##
+
+### Voluntary bonus: My fundaments. What do you consider the fundamentals of security? What would you teach the first day?
+
+#### If I were to teach a lesson on the fundamentals of security these are some of the concepts I would explain:
+
+#### * Introduction to security and cyberattacks: Why is security essential and what types of attacks can be avoided by using steps --> phishing, malware, DoS attacks. 
+#### * What are typical security practices: strong passwords, MFA (multi-factor authentication, 2FA), backups, and regular updating of software. 
+### * I would emphasize the importance of your awareness of possible attacks, make sure you are being safe on the internet to avoid scamming by avoiding linking all your personal information on the internet for everyone to find. 
