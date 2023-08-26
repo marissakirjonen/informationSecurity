@@ -121,7 +121,9 @@
 #### Everything worked well and I checked the connection. 
 ![Näyttökuva 2023-08-26 181019](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e8e9a82a-0fdd-4c79-96dc-d26d8315b8b1)
 
-
+##
+### References
+#### Tero Karvinen. 2021. URL: https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
 
 ##
