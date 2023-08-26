@@ -73,6 +73,12 @@
 
 
 ##
+### Installing Debian
+
+#### 
+
+
+##
 
 ### Voluntary bonus: My fundaments. What do you consider the fundamentals of security? What would you teach the first day?
 
