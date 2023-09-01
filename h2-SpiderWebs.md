@@ -98,7 +98,7 @@ B) Not outdated.
 My next task was to update all operating systems and all applications in my Linux. 
 
 First, I checked all the possible updates needed using the command $ sudo apt-get update in the terminal. 
-Then I updated using the command $ sudo apt-get upgrade 
+Then I updated using the command $ sudo apt-get dist-upgrade 
 
 ![Näyttökuva 2023-09-01 135520](https://github.com/marissakirjonen/informationSecurity/assets/142782994/541678da-62cc-4f0c-ab4d-2cc18794a85f)
 
