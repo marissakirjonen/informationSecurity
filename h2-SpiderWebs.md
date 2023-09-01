@@ -65,7 +65,7 @@ OWASP. 2021. A03:2021 – Injection. URL: https://owasp.org/Top10/A03_2021-Injec
 
 ## 
 A) Install WebGoat
-
+##
 
 I started off by installing Java. I opened the terminal by pressing ctrl + alt + T then used the following commands: 
 - $ sudo apt-get update
@@ -90,9 +90,18 @@ The next step was to install and run WebGoat. I did this by using the following 
 ##
 Lastly, I registered as a new user of WebGoat. I also disconnected from the internet as required. 
 
-![Näyttökuva 2023-09-01 133708](https://github.com/marissakirjonen/informationSecurity/assets/142782994/f6ae5569-8c1f-401c-b415-54b93e4a4700)
 
 ##
+B) Not outdated. 
+##
+
+My next task was to update all operating systems and all applications in my Linux. 
+
+First, I checked all the possible updates needed using the command $ sudo apt-get update in the terminal. 
+Then I updated using the command $ sudo apt-get upgrade 
+
+![Näyttökuva 2023-09-01 135520](https://github.com/marissakirjonen/informationSecurity/assets/142782994/541678da-62cc-4f0c-ab4d-2cc18794a85f)
+
 
 
 
