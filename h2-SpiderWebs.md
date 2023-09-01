@@ -11,7 +11,7 @@ A) Read and summarize OWASP: OWASP 10 2021
 - Detailed error messages to users, e.g., stack traces.
 - Updated systems with weak or disabled security.
 - poor error handling revealing overly informative error messages, e.g., stack traces
-- Out-of-date software.
+- Out-of-date software. 
 
 #### Prevention methods: 
 - Repeat and automate secure setup for development, quality assurance (QA: ensuring product/service/software meets required quality standards), and production.
