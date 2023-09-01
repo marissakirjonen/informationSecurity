@@ -10,8 +10,7 @@ A) Read and summarize OWASP: OWASP 10 2021
 - Unchanged default accounts and passwords.
 - Detailed error messages to users, e.g., stack traces.
 - Updated systems with weak or disabled security.
-- Non-securely set security options in applications, databases, etc.
-- Website sends no/weak security headers to protect.
+- poor error handling revealing overly informative error messages, e.g., stack traces
 - Out-of-date software.
 
 #### Prevention methods: 
@@ -19,7 +18,7 @@ A) Read and summarize OWASP: OWASP 10 2021
 - Simple platform without unnecessary features.
 - Review and update regularly.
 - Segmented architecture: separate parts of the application to be better secured.
-- Automated verification to check the effectiveness of security referring to the configurations and settings of all environments. 
+- Automated verification to check the effectiveness of security.
 
 #### Reference: 
 - OWASP. 2021. A05:201-Security Miconfiguration. URL: https://owasp.org/Top10/A05_2021-Security_Misconfiguration/. Accessed: 31 August 2023. 
@@ -27,20 +26,15 @@ A) Read and summarize OWASP: OWASP 10 2021
 ### Summary of A06:2021 – Vulnerable and Outdated Components 
 
 #### Vulnerabilities can arise when: 
-- Poor knowledge of versions of all components you use (client- and server-side).
-- Vulnerable/out-of-date software.
+- Poor knowledge of versions of all components you use: not running the newest version makes you vulnerable to attacks
 - Scanning for vulnerabilities is not regularly done. 
-- Upgrading the platform is not done. 
-- Devs don't test the compatibility of updated, upgraded, or patched libraries.
-- Components’ configurations are not secured. 
+- Devs don't test the compatibility of updated, upgraded, or patched libraries. 
 
 #### Prevention methods: patch management
-- Remove unused dependencies, unnecessary features, components, files, and documentation. 
-- Use official sources over secure links and signed packages (reduces risk of malicious components attached).
-- Monitor unmaintained/unpatched libraries and components for older versions.
-- Use e.g., OWASP Dependency Check to inventory (record and track) versions of client- and server-side components (e.g., libraries) and their dependencies.
-- Monitor sources e.g., Common Vulnerability and Exposures (CVE) and National Vulnerability Database (NVD) for vulnerabilities.
-- Automate process with software composition analysis tools. 
+- Remove unused features.
+- Use official sources over secure links and signed packages (reduces the risk of malicious components attached).
+- Inventory (record and track) versions used.
+- Monitor sources for vulnerabilities, e.g., Common Vulnerability and Exposures (CVE) and National Vulnerability Database (NVD) 
 - Utilize email alerts for security vulnerabilities in components in use.
 
 #### Reference: 
@@ -49,10 +43,9 @@ A) Read and summarize OWASP: OWASP 10 2021
 ### Summary of A03:2021 – Injection
 
 #### Vulnerabilities can arise when: 
-- User-supplied data isn't properly validated, filtered, or sanitized by the application.
-- Dynamic queries are executed without appropriate safeguards.
+- User-supplied data isn't properly examined or filtered, which risks it having malicious data. 
+- Dynamic queries are executed without appropriate safeguards: e.g., online shopping platform, where users can search products by name. Attackers can type in commands to change what happens when a user types something in the search box: instead of searching for shoes, an attacker can change it to delete everything with the correct commands. 
 - User data is unsafely used within search parameters, risking exposure of sensitive records.
-- Malicious data is incorporated directly into SQL or commands.
 
 Common types of attacks include e.g., SQL (Structured Query Language), NoSQL (Not Only SQL), and OS Command
 
