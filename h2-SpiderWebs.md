@@ -1,7 +1,7 @@
 # Homework 2 Spider Webs
 
 A) Read and summarize OWASP: OWASP 10 2021
-##
+
 ### Summary of A05:201-Security Misconfiguration
 
 #### Vulnerabilities can arise when:
@@ -92,8 +92,22 @@ Lastly, I registered as a new user of WebGoat. I also disconnected from the inte
 
 
 ##
-B) Not outdated. 
+B) 
+
+
+
+
+
+
+
+
+
+
+
+
 ##
+C) Not outdated. 
+
 
 My next task was to update all operating systems and all applications in my Linux. 
 
