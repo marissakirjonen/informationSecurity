@@ -1,7 +1,7 @@
 # Homework 2 Spider Webs
 
 ### Read and summarize OWASP: OWASP 10 2021
-
+ 
 ### Summary of A05:201-Security Misconfiguration
 
 #### •	Vulnerabilities can arise when:
