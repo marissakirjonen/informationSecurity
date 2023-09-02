@@ -92,14 +92,28 @@ Lastly, I registered as a new user of WebGoat. I also disconnected from the inte
 
 
 ##
-B) 
+B) Solve Webgoat 8: General: Developer tools
 
 
 
 
+![Näyttökuva 2023-09-01 115219](https://github.com/marissakirjonen/informationSecurity/assets/142782994/ea4a2e4a-aa41-49e7-9ac9-03506b6c0639)
 
 
+![Näyttökuva 2023-09-01 115601](https://github.com/marissakirjonen/informationSecurity/assets/142782994/239e404f-2650-4a4d-87b7-847a33b837d9)
 
+
+![Näyttökuva 2023-09-01 115814](https://github.com/marissakirjonen/informationSecurity/assets/142782994/022150fe-0640-4305-b7b4-29e6156cc181)
+
+
+![Näyttökuva 2023-09-01 120004](https://github.com/marissakirjonen/informationSecurity/assets/142782994/bce5a48b-6266-4043-a0a2-7bd7d2fc99c4)
+
+
+![Näyttökuva 2023-09-01 120604](https://github.com/marissakirjonen/informationSecurity/assets/142782994/fe9aa8ef-571e-4eac-b1ce-7127eedf4d58)
+
+![Näyttökuva 2023-09-01 120726](https://github.com/marissakirjonen/informationSecurity/assets/142782994/0c0c0ef1-67f6-412e-969b-f5d9a5a8b645)
+
+![Näyttökuva 2023-09-01 122046](https://github.com/marissakirjonen/informationSecurity/assets/142782994/bdcb3091-ad74-4700-a5f5-212c0ef45c55)
 
 
 
