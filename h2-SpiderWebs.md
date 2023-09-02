@@ -164,6 +164,7 @@ Then I updated using the command $ sudo apt-get dist-upgrade
 
 ##
 ### Voluntary bonus: WebGoat: SQL Injection
+* green text is what I inputted, unless stated otherwise :)
 
 ![Näyttökuva 2023-09-02 223720](https://github.com/marissakirjonen/informationSecurity/assets/142782994/50d272b0-d7ea-4483-8966-d6b731d04a78)
 
