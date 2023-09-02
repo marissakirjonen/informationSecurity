@@ -97,7 +97,7 @@ B) Solve Webgoat 8: General: Developer tools
 
 
 
-![Näyttökuva 2023-09-01 115219](https://github.com/marissakirjonen/informationSecurity/assets/142782994/ea4a2e4a-aa41-49e7-9ac9-03506b6c0639)
+
 
 
 ![Näyttökuva 2023-09-01 115601](https://github.com/marissakirjonen/informationSecurity/assets/142782994/239e404f-2650-4a4d-87b7-847a33b837d9)
