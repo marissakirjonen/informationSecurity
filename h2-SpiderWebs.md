@@ -1,6 +1,6 @@
 # Homework 2 Spider Webs
 
-A) Read and summarize OWASP: OWASP 10 2021
+### A) Read and summarize OWASP: OWASP 10 2021
 
 ### Summary of A05:201-Security Misconfiguration
 
@@ -64,8 +64,7 @@ OWASP. 2021. A03:2021 – Injection. URL: https://owasp.org/Top10/A03_2021-Injec
 
 
 ## 
-A) Install WebGoat
-##
+### A) Install WebGoat
 
 I started off by installing Java. I opened the terminal by pressing ctrl + alt + T then used the following commands: 
 - $ sudo apt-get update
@@ -92,25 +91,25 @@ Lastly, I registered as a new user of WebGoat. I also disconnected from the inte
 
 
 ##
-B) Solve Webgoat 8: General: Developer tools
+### B) Solve Webgoat 8: General: Developer tools
 
 After I logged into the WebFoat account I chose the Developer Tools tab from General and started the exercises. I began by learning how to check the HTML and CSS of the site and being able to change it. I switched the text color: 
 
 ![Näyttökuva 2023-09-01 115601](https://github.com/marissakirjonen/informationSecurity/assets/142782994/239e404f-2650-4a4d-87b7-847a33b837d9)
-
+##
 The next task was about the console. I typed console.log("Hello WebGoat!"); which showed 'Hello WebGoat!' in the console, and did a simple math exercise as shown: 
 
 ![Näyttökuva 2023-09-01 115814](https://github.com/marissakirjonen/informationSecurity/assets/142782994/022150fe-0640-4305-b7b4-29e6156cc181)
-
+##
 Next, I used the command webgoat.customjs.phoneHome() to generate a phone number, which I then had to copy to the input box on the page to see if it was correct. 
 
 ![Näyttökuva 2023-09-01 120004](https://github.com/marissakirjonen/informationSecurity/assets/142782994/bce5a48b-6266-4043-a0a2-7bd7d2fc99c4)
-
+##
 Then I learned more about the sources tab where you can find different files, e.g. js. 
 
 ![Näyttökuva 2023-09-01 120604](https://github.com/marissakirjonen/informationSecurity/assets/142782994/fe9aa8ef-571e-4eac-b1ce-7127eedf4d58)
-
-For the next exercise I had to copy a number that appears in the network section after pressing 'Go!'. Press 'Go!' > wait for it to generate the correct request > click it and go to request > copy the number after networkNum.
+##
+For the next exercise, I had to copy a number that appears in the network section after pressing 'Go!'. Press 'Go!' > wait for it to generate the correct request > click it and go to request > copy the number after networkNum.
 
 ![Näyttökuva 2023-09-01 122046](https://github.com/marissakirjonen/informationSecurity/assets/142782994/bdcb3091-ad74-4700-a5f5-212c0ef45c55)
 
@@ -119,7 +118,7 @@ For the next exercise I had to copy a number that appears in the network section
 
 
 ##
-C) Not outdated. 
+### C) Not outdated. 
 
 
 My next task was to update all operating systems and all applications in my Linux. 
@@ -128,6 +127,44 @@ First, I checked all the possible updates needed using the command $ sudo apt-ge
 Then I updated using the command $ sudo apt-get dist-upgrade 
 
 ![Näyttökuva 2023-09-01 135520](https://github.com/marissakirjonen/informationSecurity/assets/142782994/541678da-62cc-4f0c-ab4d-2cc18794a85f)
+
+##
+### D) Sequel. Solve SQLZoo 
+### 0 SELECT basics
+
+![Näyttökuva 2023-09-02 204925](https://github.com/marissakirjonen/informationSecurity/assets/142782994/cead1a25-d57e-4101-a5d1-b88996a279af)
+##
+![Näyttökuva 2023-09-02 205017](https://github.com/marissakirjonen/informationSecurity/assets/142782994/39cc7be0-3363-4083-8ebe-70d516540f8f)
+##
+![Näyttökuva 2023-09-02 205059](https://github.com/marissakirjonen/informationSecurity/assets/142782994/cbe4a103-79bc-4651-b695-ca11bdf0c4c7)
+##
+
+### 2 SELECT from World, from the first two subtasks
+
+
+![Näyttökuva 2023-09-02 205320](https://github.com/marissakirjonen/informationSecurity/assets/142782994/185a2a97-242d-47e2-8460-921fd265f1e3)
+##
+![Näyttökuva 2023-09-02 205500](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a2b291e9-43aa-4aa9-a17b-3d733f04383a)
+##
+
+### E) Johnny Tables. Solve Portswigger Labs
+
+##### This lab contains a vulnerability for SQL injection.
+##### Original: SELECT * FROM products WHERE category = 'Gifts' AND released = 1 
+##### This means it is selecting products from the category gifts AND only released products only. 
+
+##### The original webpage shows 3 released gifts:
+
+![Näyttökuva 2023-09-02 211928](https://github.com/marissakirjonen/informationSecurity/assets/142782994/04056f8f-0913-44d6-8333-d3adf3a62b5b)
+
+##### Modify the category parameter, giving it the value '+OR+1=1-- (insert this behind the URL)
+##### SQL injection: Original: SELECT * FROM products WHERE category = 'Gifts' OR 1 = 1
+
+##### Now the webpage shows ALL the products, even unreleased ones: 
+
+![Näyttökuva 2023-09-02 212525](https://github.com/marissakirjonen/informationSecurity/assets/142782994/c1f9adf5-d36c-4601-aded-6f1e32f53b94)
+
+
 
 
 
