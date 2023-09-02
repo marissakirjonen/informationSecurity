@@ -158,8 +158,6 @@ Then I updated using the command $ sudo apt-get dist-upgrade
 ![Näyttökuva 2023-09-02 211928](https://github.com/marissakirjonen/informationSecurity/assets/142782994/04056f8f-0913-44d6-8333-d3adf3a62b5b)
 
 ##### Modify the category parameter, giving it the value '+OR+1=1-- (insert this behind the URL)
-##### SQL injection: Original: SELECT * FROM products WHERE category = 'Gifts' OR 1 = 1
-
 ##### Now the webpage shows ALL the products, even unreleased ones: 
 
 ![Näyttökuva 2023-09-02 212525](https://github.com/marissakirjonen/informationSecurity/assets/142782994/c1f9adf5-d36c-4601-aded-6f1e32f53b94)
