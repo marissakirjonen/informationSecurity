@@ -162,7 +162,40 @@ Then I updated using the command $ sudo apt-get dist-upgrade
 
 ![Näyttökuva 2023-09-02 212525](https://github.com/marissakirjonen/informationSecurity/assets/142782994/c1f9adf5-d36c-4601-aded-6f1e32f53b94)
 
+##
+### Voluntary bonus: WebGoat: SQL Injection
 
+![Näyttökuva 2023-09-02 223720](https://github.com/marissakirjonen/informationSecurity/assets/142782994/50d272b0-d7ea-4483-8966-d6b731d04a78)
+
+##
+![Näyttökuva 2023-09-02 224035](https://github.com/marissakirjonen/informationSecurity/assets/142782994/54d63aef-6617-463b-a9a1-a539c9673f61)
+
+##
+![Näyttökuva 2023-09-02 224137](https://github.com/marissakirjonen/informationSecurity/assets/142782994/670b1efa-f637-46e1-8faa-df5ceaa8e538)
+
+##
+![Näyttökuva 2023-09-02 224243](https://github.com/marissakirjonen/informationSecurity/assets/142782994/c24f9d20-6d9e-4e8e-a97c-f6bc9705ea56)
+##
+
+##### For this exercise, I typed in the input box: ' OR '1' = '1
+##### The input shown in the screenshot is what it updated to:
+![Näyttökuva 2023-09-02 225022](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a1436c3e-0cc6-4fc8-bc27-9360464ab7f8)
+
+##
+##### For this exercise, I inputted login_count: 0 and user_id: 1 or 1=1
+![Näyttökuva 2023-09-02 231401](https://github.com/marissakirjonen/informationSecurity/assets/142782994/102a5ea1-03e0-46fd-bb8a-151f39b88886)
+
+##
+##### I inputted employee name: a and authentication TAN: 'or'1'='1
+![Näyttökuva 2023-09-02 225619](https://github.com/marissakirjonen/informationSecurity/assets/142782994/8d0c922e-1835-4389-b3d6-618ed7e034fd)
+
+##
+##### I inputted employee name: smith and authentication TAN: 3SL99A';UPDATE employees SET salary=10000000 WHERE last_name='Smith
+![Näyttökuva 2023-09-02 225938](https://github.com/marissakirjonen/informationSecurity/assets/142782994/08d8ae18-d021-44de-9df7-41c6f7118c64)
+
+##
+##### I inputted into the action contains field: 1';DROP TABLE access_log;--ss
+![Näyttökuva 2023-09-02 230109](https://github.com/marissakirjonen/informationSecurity/assets/142782994/636601c6-7cc6-4061-a7b7-49edd9830cae)
 
 
 
