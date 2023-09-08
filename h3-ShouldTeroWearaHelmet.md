@@ -1,4 +1,4 @@
-## Threat Modeling summaries
+## Threat Modeling Summaries
 
 Braiterman et al 2020: [Threat modeling manifesto](https://www.threatmodelingmanifesto.org/)
 
@@ -22,7 +22,7 @@ Avoid:
 
 ## 
 
-[Shostack 2022: Welcome to the Worlds Shortest Threat Modeling Course](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf)
+Shostack 2022: [Welcome to the Worlds Shortest Threat Modeling Course](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf)
 
 Anticipate problems when it’s inexpensive to deal with them, so at the beginning of the design phase! 
 
@@ -46,7 +46,7 @@ Framework questions:
 
 ##
 
-[Shostack 2014: Chapter 1 - Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1)
+Shostack 2014: [Chapter 1 - Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1)
 
 ### Understanding Threat Modeling:
 - A tool to spot security issues.
@@ -56,7 +56,7 @@ Framework questions:
 
 ##
 
-[OWASP CheatSheets Series Team 2021: Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
+OWASP CheatSheets Series Team 2021: [Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
 
 ### What Does Threat Modeling Involve?
 - Mapping out data flow in a system to find weak points.
@@ -116,3 +116,10 @@ Threat Matrix: Document threat traceability.
 - Rank risk value.
 - Identify risk owners. 
 
+
+
+
+
+## 
+
+## Security Hygiene
