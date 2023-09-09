@@ -135,12 +135,30 @@ Make sure to follow basic security hygiene.
 
 ## 
 
-## Make-belief boogie-man - a threat model for a company dealing with student data; id card,
+## Make-belief boogie-man - a threat model for a company
+
+### StudyHelp
+
+Company overview: A platform for students who need tutoring/study partners. It matches students with study partners and tutors to aid them with their studies. It contains academic resources, flashcards, notes, and practice exams for different subjects. This contains in-app purchases. 
+
+**1. What are we working on?**
+Assets:
+Primary assets
+- User profiles: includes personal data (names, addresses, financial details), and links with academic subjects.
+- Payments
+- Backups
+- Academic resources: summaries, practice exams, flashcards, etc.
+- Collaboration tools: video/audio tools, collaborative documents
 
 
+Diagram of systems: 
+
+![Näyttökuva 2023-09-09 214847](https://github.com/marissakirjonen/informationSecurity/assets/142782994/37fbedf2-b1d4-4a2f-ae0c-b6b1dffeebcc)
+
+The platform StudyHelp connects to each of the following nodes (no arrows to keep the diagram readable). The user management system includes user data, payment data, and preferences; so this then would connect to collaboration tools to connect to other users, scheduling systems to schedule sessions with tutors, and payment system for required payment of subscriptions. The academic resources connects to user system to be able to link preferences, and the collaboration system to be able to study resources with other users. The scheduling system would connect to the collaboration system for sessions. The notification system connects to the scheduling system to alert of upcoming sessions. The backup system connects to each of these!
 
 
-
+** 2. What can go wrong?**
 
 
 
