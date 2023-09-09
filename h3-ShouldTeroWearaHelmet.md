@@ -90,7 +90,7 @@ OWASP CheatSheets Series Team 2021: [Threat Modeling Cheat Sheet](https://cheats
 
 
 - Logical View: For designers (functional requirements).
--	Implementation View: For programmers (software components).
+-	Implementation View: For programmers (software components). 
 -	Process View: For integrators (non-functional needs).
 -	Deployment View: For managers (software to hardware mapping).
 -	Use-Case View: For all stakeholders.
