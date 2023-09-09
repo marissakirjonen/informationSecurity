@@ -139,9 +139,10 @@ Make sure to follow basic security hygiene.
 
 ### StudyHelp
 
-Company overview: A platform for students who need tutoring/study partners. It matches students with study partners and tutors to aid them with their studies. It contains academic resources, flashcards, notes, and practice exams for different subjects. This contains in-app purchases. 
+Company overview: A platform for students who need tutoring/study partners. It matches students with study partners and tutors to aid them with their studies. Students can schedule times to meet with a tutors via video/audio. It contains academic resources, flashcards, notes, and practice exams for different subjects that can be collaborated on during the sessions. This contains in-app purchases. 
 
 **1. What are we working on?**
+
 Assets:
 Primary assets
 - User profiles: includes personal data (names, addresses, financial details), and links with academic subjects.
@@ -158,7 +159,46 @@ Diagram of systems:
 The platform StudyHelp connects to each of the following nodes (no arrows to keep the diagram readable). The user management system includes user data, payment data, and preferences; so this then would connect to collaboration tools to connect to other users, scheduling systems to schedule sessions with tutors, and payment system for required payment of subscriptions. The academic resources connects to user system to be able to link preferences, and the collaboration system to be able to study resources with other users. The scheduling system would connect to the collaboration system for sessions. The notification system connects to the scheduling system to alert of upcoming sessions. The backup system connects to each of these!
 
 
-** 2. What can go wrong?**
+**2. What can go wrong?**
+
+Using the STRIDE model: 
+
+1. Spoofing
+   - Phishing attemps
+   - Fake tutors
+2. Tampering
+   - Unauthorized changes in materials
+   - Divertion of payments
+3. Repudiation
+   - Sessions not being fufilled, not showing up for scheduled sessions
+4. Information Disclosure
+   - Data leaks of personal information
+   - Unauthorized access to platform academic resources, loss of revenue
+5. Denial of Service
+   - Ddos attacks
+6. Elevation of Privilege
+   - Regular users getting admin rights
+   - Unauthorized users accessing academic resources without payment of app
+  
+Examples of identified risks:
+1. Data breaches: personal and financial data
+2. Downtime during peak study times, e.g. certain timeframes like exams
+3. Malicious scripts being inserted into adacemic resources
+4. Fraudulent transactions with the payment system
+
+Threat actors
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
