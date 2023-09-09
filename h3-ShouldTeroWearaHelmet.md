@@ -139,7 +139,7 @@ Make sure to follow basic security hygiene.
 
 ### StudyHelp
 
-Company overview: A platform for students who need tutoring/study partners. It matches students with study partners and tutors to aid them with their studies. Students can schedule times to meet with a tutors via video/audio. It contains academic resources, flashcards, notes, and practice exams for different subjects that can be collaborated on during the sessions. This contains in-app purchases. 
+Company overview: A platform for students who need tutoring/study partners. It matches students with study partners and tutors to aid them with their studies. Students can schedule times to meet with tutors via video/audio. It contains academic resources, flashcards, notes, and practice exams for different subjects that can be collaborated on during the sessions. This contains in-app purchases. 
 
 **1. What are we working on?**
 
@@ -164,18 +164,18 @@ The platform StudyHelp connects to each of the following nodes (no arrows to kee
 Using the STRIDE model: 
 
 1. Spoofing
-   - Phishing attemps
+   - Phishing attempts
    - Fake tutors
 2. Tampering
    - Unauthorized changes in materials
-   - Divertion of payments
+   - Diversion of payments
 3. Repudiation
-   - Sessions not being fufilled, not showing up for scheduled sessions
+   - Sessions not being fulfilled, not showing up for scheduled sessions
 4. Information Disclosure
    - Data leaks of personal information
    - Unauthorized access to platform academic resources, loss of revenue
 5. Denial of Service
-   - Ddos attacks
+   - DDoS attacks
 6. Elevation of Privilege
    - Regular users getting admin rights
    - Unauthorized users accessing academic resources without payment of app
@@ -183,10 +183,27 @@ Using the STRIDE model:
 Examples of identified risks:
 1. Data breaches: personal and financial data
 2. Downtime during peak study times, e.g. certain timeframes like exams
-3. Malicious scripts being inserted into adacemic resources
+3. Malicious scripts being inserted into academic resources
 4. Fraudulent transactions with the payment system
 
 Threat actors
+- TTPs
+   - Malware through academic resources
+   - SQL injection (access user data)
+   - DDoS attacks
+ 
+**3. What are we going to do about it?**
+
+1. Try and reduce the amount of malware implementation through validation of uploads
+2. CAPTCHA: Completely Automated Public Turing test to tell Computers and Humans Apart
+3. Regular updates to patch vulnerabilities
+4. Insurance policy
+
+**4. Did we do a good enough job?**
+
+1. User feedback!
+2. Update the threat model
+3. Penetration tests
 
 
 
