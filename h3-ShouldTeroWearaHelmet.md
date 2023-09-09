@@ -118,8 +118,6 @@ Threat Matrix: Document threat traceability.
 
 
 
-
-
 ## 
 
 ## Security Hygiene
@@ -145,7 +143,7 @@ Company overview: A platform for students who need tutoring/study partners. It m
 
 Assets:
 Primary assets
-- User profiles: includes personal data (names, addresses, financial details), and links with academic subjects.
+- User profiles: includes personal data (names, financial details,...), and links with academic subjects.
 - Payments
 - Backups
 - Academic resources: summaries, practice exams, flashcards, etc.
@@ -182,7 +180,7 @@ Using the STRIDE model:
   
 Examples of identified risks:
 1. Data breaches: personal and financial data
-2. Downtime during peak study times, e.g. certain timeframes like exams
+2. Downtime
 3. Malicious scripts being inserted into academic resources
 4. Fraudulent transactions with the payment system
 
