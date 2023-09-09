@@ -123,3 +123,34 @@ Threat Matrix: Document threat traceability.
 ## 
 
 ## Security Hygiene
+
+Make sure to follow basic security hygiene. 
+
+1. Use unique and different passwords for everything; a unique password would use special characters, numbers, and a mix of capitalized and lowercase letters. Avoid common words/phrases. This can be achieved best by using a password manager, for example [KeePassXC](https://keepassxc.org/).
+2. Software updates; updating whenever it is available keeps your device from being compromised easily. They patch vulnerabilities within the updates.
+3. Anti-virus software
+4. Be mindful of ports on the device, not to allow e.g. unknown USB sticks to access points.
+5. Backup your devices.
+
+
+## 
+
+## Make-belief boogie-man - a threat model for a company dealing with student data; id card,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
