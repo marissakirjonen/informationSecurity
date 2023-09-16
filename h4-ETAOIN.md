@@ -93,6 +93,71 @@ o	**Polyalphabetic substitution cipher:** made of multiple monoalphabetic cipher
 -	**DES (Data Encryption Standard):** most popular symmetric algorithm 
 -	**RSA:** most common public-key algorithm 
 -	**DSA (Digital Signature Algorithm):** public-key algorithm used in DIginal Signature Standard
+  
+##
+### Frequency distribution of letters for Finnish
+
+This is the [website](https://www.sttmedia.com/characterfrequency-finnish) I used to find the following information:
+
+![Näyttökuva 2023-09-16 215856](https://github.com/marissakirjonen/informationSecurity/assets/142782994/51802a81-cb4b-4b1e-a0b3-0b3ce277724a)
+
+
+##
+### Password Manager: [KeePassXC](https://keepassxc.org/)
+
+
+Password Manager: [KeePassXC](https://keepassxc.org/)
+1.	**What threats does it protect against?**
+- Brute-force attacks: difficult for an attacker to guess your password
+- Phishing: passwords are associated with specific URLs, therefore it’s less likely for a user to write the password to a malicious site
+- Data breaches: because you’re using unique passwords, if one gets compromised, other ones will not
+
+2.	**What information is encrypted, what's not?**
+- Encrypted: entire database content
+- Not encrypted: database header
+
+4.	**What's the license? How would you describe license's effects or categorize it?**
+- License: [GNU General Public License Version 3]( https://www.gnu.org/licenses/gpl-3.0.en.html) (GPLv3)
+- Open-source license: anyone can view, modify, or distribute
+
+6.	**Where is the data stored? If in "the cloud", which country / juristiction / which companies? If on local disk, where?**
+- Stored locally on user’s machine, not in “the cloud”, however user can choose to sync
+
+7.	**How is the data protected?**
+- Encryption: combining AES256-CBC and HMAC-SHA256
+- Master password
+
+Found an interesting review for [KeyPassXC]( https://keepassxc.org/assets/pdf/KeePassXC-Review-V1-Molotnikov.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
