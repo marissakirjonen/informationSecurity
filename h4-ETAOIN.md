@@ -150,6 +150,10 @@ This is a random user screenshot from [Medium]( https://gagarine.medium.com/open
 Essentially, the user would have all their usernames and passwords linked into this platform that is downloaded onto the user’s machine (not in cloud, unless manually added). This is all secured under a master password as well, which you set up when you have downloaded KeePassXC. With this, you can automatically pull usernames and passwords directly into the website you are trying to login to. There is also a browser extension available!
 
 
+##
+
+### Encrypt and Decrypt a Message
+
 
 
 
