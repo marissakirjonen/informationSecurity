@@ -174,7 +174,7 @@ Then it was encrypted! "message.txt --> message.txt.gpg: signing and encryption 
 
 To decrypt I just opened the file from my folder with Kleopatra and there we go!
 
-![this](https://github.com/marissakirjonen/informationSecurity/assets/142782994/5970631f-520a-47c5-a0d1-05b9d4ff7dfe)
+![this](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d10d87b0-b78e-48a7-9f51-3eb594c07faa)
 
 
 
