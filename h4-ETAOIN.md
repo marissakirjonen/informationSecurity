@@ -168,11 +168,11 @@ After this, I clicked on allekirjoita tai salaa tiedostoja (sign/encrypt files) 
 
 ![here](https://github.com/marissakirjonen/informationSecurity/assets/142782994/6b5aecab-4fb7-4ff9-9e38-5c1e02b2e2e2)
 
-Then it was encrypted! "message.txt --> message.txt.gpg: signing and encryption worked:
+Then it was encrypted! "message.txt --> message.txt.gpg: signing and encryption worked":
 
 ![Näyttökuva 2023-09-17 000839](https://github.com/marissakirjonen/informationSecurity/assets/142782994/6f214932-5d18-4613-ab00-7073e9184e78)
 
-To decrypt I just opened the file from my folder with Kleopatra and there we go!
+To decrypt I just opened the file from my folder with Kleopatra and there we go! It changed the .gpg back to .txt
 
 ![this](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d10d87b0-b78e-48a7-9f51-3eb594c07faa)
 
