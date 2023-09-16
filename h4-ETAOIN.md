@@ -124,7 +124,7 @@ Password Manager: [KeePassXC](https://keepassxc.org/)
 - Stored locally on user’s machine, not in “the cloud”, however user can choose to sync
 
 7.	**How is the data protected?**
-- Encryption: combining AES256-CBC and HMAC-SHA256
+- Encryption: combining AES256-CBC and HMAC-SHA256 
 - Master password
 
 Found an interesting review for [KeyPassXC]( https://keepassxc.org/assets/pdf/KeePassXC-Review-V1-Molotnikov.pdf)
