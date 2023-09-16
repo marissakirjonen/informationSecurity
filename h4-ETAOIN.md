@@ -4,7 +4,7 @@
 
 
 
-1.1	Terminology
+### 1.1	Terminology
 Sender and Receiver: sender transmits a secure message to receiver without it being able to be read by someone else.
 Messages and Encryption
 -	Message (M)/Plaintext (P): Original message
@@ -59,13 +59,13 @@ Security of Algorithms
 o	Should cost more to break than the value of the data + time needed to break should exceed duration that the data needs to be secured 
 
 
-1.2	Steganography 
+### 1.2	Steganography 
 
 **Steganography** is hiding messages within other messages
 -	recent methods include; hiding messages in graphic images by replacing the least significant bit of each byte of the image with bits of the message 
 
 
-1.3	Substitution Ciphers and Transposition Ciphers 
+### 1.3	Substitution Ciphers and Transposition Ciphers 
 
 **Substitution Ciphers** replace characters in plaintext with other ciphertexts
 -	Types: 
@@ -75,20 +75,22 @@ o	**Polygram substitution cipher:** groups of characters are encrypted together
 o	**Polyalphabetic substitution cipher:** made of multiple monoalphabetic ciphers
 **Transposition cipher** is where the plaintext remains the same but the order is rearranged 
 
-1.4	Simple XOR
+### 1.4	Simple XOR
 
 **XOR:** eclusive-or
 -	basic symmetric encryption to combine plaintext with a key
 -	not secure and easily broken
 
-1.5	One-time Pads
+### 1.5	One-time Pads
 
 -	theoretically perfect encryption scheme using sets of random key letters that encrypt only one plaintext character making sure all messages have unique non-repeating keys
 -	secure as long as key remains secret and never reused
--	practical limitations: key distribution and synchronization 
+-	practical limitations: key distribution and synchronization
 
-
-1.6	Computer Algorithms
+### 1.6	Computer Algorithms
 -	**DES (Data Encryption Standard):** most popular symmetric algorithm 
 -	**RSA:** most common public-key algorithm 
 -	**DSA (Digital Signature Algorithm):** public-key algorithm used in DIginal Signature Standard
+
+
+
