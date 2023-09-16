@@ -154,11 +154,27 @@ Essentially, the user would have all their usernames and passwords linked into t
 
 ### Encrypt and Decrypt a Message
 
+I used Gpg4win (Windows) from GNU Privacy Guard. This uses Kleopatra. Despite changing the settings, I couldn't get the language to change from Finnish to English, so I'll translate some of the needed words. 
 
+First step was to create a key pair by pressing uusi avainpari (new key pair):
 
+![Näyttökuva 2023-09-16 232911](https://github.com/marissakirjonen/informationSecurity/assets/142782994/09bdc9e1-87a4-43d8-80d6-ec4dfd97d54b)
 
+Then I created a plaintext file on notepad:
 
+![Näyttökuva 2023-09-17 001920](https://github.com/marissakirjonen/informationSecurity/assets/142782994/fcd9ab7f-502a-4cd5-b7da-4c8374f194f0)
 
+After this, I clicked on allekirjoita ja salaa tiedostoja (sign/encrypt fieles) to encrypt the plaintext I just created:
+
+![Näyttökuva 2023-09-17 000804](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e8ef9d1e-4760-4ab9-8fea-9fcc4a3f9883)
+
+Then it was encrypted! "message.txt --> message.txt.gpg: signing and encryption worked:
+
+![Näyttökuva 2023-09-17 000839](https://github.com/marissakirjonen/informationSecurity/assets/142782994/6f214932-5d18-4613-ab00-7073e9184e78)
+
+To decrypt I just opened the file from my folder with Kleopatra and there we go!
+
+![this](https://github.com/marissakirjonen/informationSecurity/assets/142782994/5970631f-520a-47c5-a0d1-05b9d4ff7dfe)
 
 
 
