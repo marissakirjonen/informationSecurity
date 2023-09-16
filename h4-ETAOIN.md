@@ -131,12 +131,23 @@ Found an interesting review for [KeyPassXC]( https://keepassxc.org/assets/pdf/Ke
 
 ##
 
-### Crack this ciphertext
+### Crack This Ciphertext
 
 HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG
 
 ![Näyttökuva 2023-09-16 223421](https://github.com/marissakirjonen/informationSecurity/assets/142782994/6a66b7b0-708c-4962-92f0-d56b0e9b0d61)
 
+
+##
+
+### Demonstrate a Password Manager: KeePassXC
+
+This is a random user screenshot from [Medium]( https://gagarine.medium.com/open-source-password-manager-a-viable-alternative-to-lastpass-and-dashlane-435ad92ff716) to show you what KeePassXC looks like, since I didn’t want to take a screenshot of my own manager :)
+
+![Näyttökuva 2023-09-16 225115](https://github.com/marissakirjonen/informationSecurity/assets/142782994/826d2ffc-5414-4385-b7f3-994367decbf4)
+
+
+Essentially, the user would have all their usernames and passwords linked into this platform that is downloaded onto the user’s machine (not in cloud, unless manually added). This is all secured under a master password as well, which you set up when you have downloaded KeePassXC. With this, you can automatically pull usernames and passwords directly into the website you are trying to login to. There is also a browser extension available!
 
 
 
