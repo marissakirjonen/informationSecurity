@@ -164,7 +164,7 @@ Then I created a plaintext file on notepad:
 
 ![Näyttökuva 2023-09-17 001920](https://github.com/marissakirjonen/informationSecurity/assets/142782994/fcd9ab7f-502a-4cd5-b7da-4c8374f194f0)
 
-After this, I clicked on allekirjoita ja salaa tiedostoja (sign/encrypt fieles) to encrypt the plaintext I just created:
+After this, I clicked on allekirjoita tai salaa tiedostoja (sign/encrypt fieles) to encrypt the plaintext I just created:
 
 ![Näyttökuva 2023-09-17 000804](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e8ef9d1e-4760-4ab9-8fea-9fcc4a3f9883)
 
