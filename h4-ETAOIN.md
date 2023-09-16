@@ -31,6 +31,8 @@ o	K = number, keyspace is the range of possible key values
   - EK(M) = C
   - DK(C) = M 
 
+![Näyttökuva 2023-09-16 202741](https://github.com/marissakirjonen/informationSecurity/assets/142782994/b411cc62-6571-412f-8286-1f82519ffd06)
+
 
 Symmetric Algorithms
 -	Same key for decryption and encryption
