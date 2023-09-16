@@ -156,17 +156,17 @@ Essentially, the user would have all their usernames and passwords linked into t
 
 I used Gpg4win (Windows) from GNU Privacy Guard. This uses Kleopatra. Despite changing the settings, I couldn't get the language to change from Finnish to English, so I'll translate some of the needed words. 
 
-First step was to create a key pair by pressing uusi avainpari (new key pair):
+The first step was to create a key pair by pressing uusi avainpari (new key pair):
 
 ![Näyttökuva 2023-09-16 232911](https://github.com/marissakirjonen/informationSecurity/assets/142782994/09bdc9e1-87a4-43d8-80d6-ec4dfd97d54b)
 
-Then I created a plaintext file on notepad:
+Then I created a plaintext file on Notepad:
 
 ![Näyttökuva 2023-09-17 001920](https://github.com/marissakirjonen/informationSecurity/assets/142782994/fcd9ab7f-502a-4cd5-b7da-4c8374f194f0)
 
-After this, I clicked on allekirjoita tai salaa tiedostoja (sign/encrypt fieles) to encrypt the plaintext I just created:
+After this, I clicked on allekirjoita tai salaa tiedostoja (sign/encrypt files) to encrypt the plaintext I just created:
 
-![Näyttökuva 2023-09-17 000804](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e8ef9d1e-4760-4ab9-8fea-9fcc4a3f9883)
+![here](https://github.com/marissakirjonen/informationSecurity/assets/142782994/6b5aecab-4fb7-4ff9-9e38-5c1e02b2e2e2)
 
 Then it was encrypted! "message.txt --> message.txt.gpg: signing and encryption worked:
 
