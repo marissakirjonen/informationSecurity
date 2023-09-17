@@ -9,10 +9,10 @@ Sender and Receiver: sender transmits a secure message to receiver without it be
 Messages and Encryption
 -	Message (M)/Plaintext (P): Original message
 -	Encryption (E): Disguising the message
-o	Function: E(M) = C 
+  -	Function: E(M) = C 
 -	Ciphertext (C): Encrypted message
 -	Decryption (D): Converting ciphertext back to plaintext
-o	Function: D(C) = M
+  - Function: D(C) = M
 
 Key aspects: Authentication, Integrity, and Nonrepudiation
 -	Authentication: verify the origin of a message
@@ -21,12 +21,12 @@ Key aspects: Authentication, Integrity, and Nonrepudiation
 
 Algorithms and Keys
 -	Cryptographic Algorithm (Cipher): mathematical function for encryption and decryption
--	Restricted Algorithm: Security relies on keeping the algorithm secret
-o	not up to today’s standards
-o	not ideal for larger/changing groups, as if one user leaves then the algorithm must change
-o	no quality control or standardization
+-	Restricted Algorithm: Security relies on keeping the algorithm secre
+  -	not up to today’s standards
+  -	not ideal for larger/changing groups, as if one user leaves then the algorithm must change
+  -	no quality control or standardization
 -	Modern algorithms user a key (K)
-o	K = number, keyspace is the range of possible key values
+-	K = number, keyspace is the range of possible key values
 - Earlier functions become:
   - EK(M) = C
   - DK(C) = M 
@@ -37,9 +37,9 @@ o	K = number, keyspace is the range of possible key values
 Symmetric Algorithms
 -	Same key for decryption and encryption
 -	Security depends on the secrecy of the shared key
--	Two types: 
-o	Stream algorithms/ciphers: operate on single bit/byte of plaintext at a time
-o	Block algorithms/ciphers: operate on groups of bits (blocks)
+-	Two types:
+  -	Stream algorithms/ciphers: operate on single bit/byte of plaintext at a time
+  -	Block algorithms/ciphers: operate on groups of bits (blocks)
 
 Public-Key Algorithms
 -	Different keys for decryption (private key) and encryption (public key)
@@ -47,35 +47,35 @@ Public-Key Algorithms
 Cryptanalysis
 -	Recovering the plaintext without access to the key 
 -	Cryptanalytic attacks: 
-o	**Ciphertext-only:** access to encrypted message
-o	**Known-plaintext:** access to plaintext and corresponding ciphertext
-o	**Chosen-plaintext:** able to choose the specific large block of plaintext to be encrypted
-o	**Adaptive-chosen-plaintext:** able to choose specific small block of plaintext + choose another block based on previous encryption
-o	**Chosen-ciphertext:** able to choose different cipher-texts to decrypt and has access to decrypted plaintetext
-o	**Chosen-key:** has knowledge of the relationship between keys
-o	**Rubber-hose cryptanalysis:** forceful attainment of key through threats/violence 
-o	**Purchase-key:** bribery for key
+  - **Ciphertext-only:** access to encrypted message
+  - **Known-plaintext:** access to plaintext and corresponding ciphertext
+  - **Chosen-plaintext:** able to choose the specific large block of plaintext to be encrypted
+  - **Adaptive-chosen-plaintext:** able to choose specific small block of plaintext + choose another block based on previous encryption
+  - **Chosen-ciphertext:** able to choose different cipher-texts to decrypt and has access to decrypted plaintetext
+  - **Chosen-key:** has knowledge of the relationship between keys
+  - **Rubber-hose cryptanalysis:** forceful attainment of key through threats/violence
+  - **Purchase-key:** bribery for key
 
 Security of Algorithms
--	Security depends on cost, time, and amount of data encrypted 
-o	Should cost more to break than the value of the data + time needed to break should exceed duration that the data needs to be secured 
+-	Security depends on cost, time, and amount of data encrypted
+  -	Should cost more to break than the value of the data + time needed to break should exceed duration that the data needs to be secured 
 
 
 ### 1.2	Steganography 
 
 **Steganography** is hiding messages within other messages
--	recent methods include; hiding messages in graphic images by replacing the least significant bit of each byte of the image with bits of the message 
+  -	recent methods include; hiding messages in graphic images by replacing the least significant bit of each byte of the image with bits of the message 
 
 
 ### 1.3	Substitution Ciphers and Transposition Ciphers 
 
 **Substitution Ciphers** replace characters in plaintext with other ciphertexts
 -	Types: 
-o	**Simple substitution cipher (monoalphabetic cipher):** each plaintext character is substituted for a specific ciphertext character
-o	**Homophonic substitution cipher:** single plaintext characters maps to multiple ciphertext characters
-o	**Polygram substitution cipher:** groups of characters are encrypted together
-o	**Polyalphabetic substitution cipher:** made of multiple monoalphabetic ciphers
-**Transposition cipher** is where the plaintext remains the same but the order is rearranged 
+  - **Simple substitution cipher (monoalphabetic cipher):** each plaintext character is substituted for a specific ciphertext character
+  - **Homophonic substitution cipher:** single plaintext characters maps to multiple ciphertext characters
+  - **Polygram substitution cipher:** groups of characters are encrypted together
+  - **Polyalphabetic substitution cipher:** made of multiple monoalphabetic ciphers
+  - **Transposition cipher** is where the plaintext remains the same but the order is rearranged 
 
 ### 1.4	Simple XOR
 
