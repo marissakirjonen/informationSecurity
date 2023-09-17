@@ -7,7 +7,7 @@
 ### 1.1	Terminology
 Sender and Receiver: sender transmits a secure message to receiver without it being able to be read by someone else.
 Messages and Encryption
--	Message (M)/Plaintext (P): Original message
+-	Message (M)/Plaintext (P): Original message 
 -	Encryption (E): Disguising the message
   -	Function: E(M) = C 
 -	Ciphertext (C): Encrypted message
