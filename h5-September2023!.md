@@ -1,6 +1,6 @@
 ## h4 September2023!
 
-### Summary of Schneiner 2015: Applied Cryptography: 2.3 & 2.4
+### Summary of [Schneiner 2015: Applied Cryptography: 2.3 & 2.4](https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003)
 
 #### 2.3	One-Way Functions
 
