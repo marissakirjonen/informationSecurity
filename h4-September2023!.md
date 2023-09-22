@@ -21,7 +21,7 @@ An application of a one-way hash function is verifying authenticity of files of 
 
 ##
 
-### Summary of Disobey Niklas Särökaari 2018: [Phishing Through Email](https://www.youtube.com/watch?v=m9YFJGSHYtY)
+### Summary of Disobey Niklas Särökaari 2018: [Phishing Through Email](https://www.youtube.com/watch?v=m9YFJGSHYtY) 
 
 
 Phishing is a tactic where adversaries send emails appearing to be from legitimate sources containing malicious attachments or links to gain sensitive information, e.g., login credentials. Users tend to click these malicious links due to them expecting a similar link (e.g., they ordered a package, and they were expecting an email from Posti), simply out of curiosity, or the user thinking they knew the sender. 
