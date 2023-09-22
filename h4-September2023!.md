@@ -46,18 +46,90 @@ The most effective methods of phishing include package delivery messages, mail f
 To protect yourself from phishing, it’s important to implement SPF, DKIM and DMARC, as well as keeping domains safe by securing similar-looking domains ensuring adversaries cannot use these to their advantage. Additionally, educating users to recognize common attempts, securing infrastructure, and utilizing tools like x0rz phishing catcher, which detects malicious phishing domains similar to own domain. 
 
 
+##
+
+### Installing Hashcat
+
+To install Hashcat, I opened VirtualBox terminal and followed the guidelines on [TeroKarvinen.com](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)
+
+I used the following commands. I already had Hashcat downloaded, so the terminal message explains this in the screenshots. 
+
+    $ sudo apt-get update
+    $ sudo apt-get -y install hashid hashcat wget
 
 
+![Näyttökuva 2023-09-21 110508](https://github.com/marissakirjonen/informationSecurity/assets/142782994/ca5612ab-1f81-46fe-9b53-02e392596e6f)
+
+![Näyttökuva 2023-09-21 110516](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d8d8442a-02ea-4acc-b659-1e84f5587bed)
+
+## 
+Next I created a new directory using these commands: 
+
+    $ mkdir hashed
+    $ cd hashed
+
+![Näyttökuva 2023-09-21 110540](https://github.com/marissakirjonen/informationSecurity/assets/142782994/af32c581-c387-43d0-86f0-a59134f21dec)
+
+(I had created the same file previously)
+
+##
+Next I used rockyou dictionary as recommended, using these commands: 
+
+    $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+    $ tar xf rockyou.txt.tar.gz
+    $ rm rockyou.txt.tar.gz
+
+![Näyttökuva 2023-09-21 110702](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d440ed49-545f-4bc1-afa5-70100c0ef68a)
+
+Next I used this command:
+
+    $ head rockyou.txt
+
+![Näyttökuva 2023-09-21 110825](https://github.com/marissakirjonen/informationSecurity/assets/142782994/1efbb944-9c89-409f-87db-12b8a0721b9f)
+
+Lastly you can see that it contains over 14 million words:
+    
+    $ wc -l rockyou.txt 
+
+![Näyttökuva 2023-09-21 110940](https://github.com/marissakirjonen/informationSecurity/assets/142782994/8de447b4-7f6e-403b-b2df-aa97ff2666f1)
 
 
+##
+
+### Crack this hash 8eb8e307a6d649bc7fb51443a06a216f
+
+Following the same guidelines as before, I solved the hash '8eb8e307a6d649bc7fb51443a06a216f'.
+
+I used the following command to identify the hash type:
+
+    $ hashid -m 8eb8e307a6d649bc7fb51443a06a216f
+
+![Näyttökuva 2023-09-21 111209](https://github.com/marissakirjonen/informationSecurity/assets/142782994/457ad665-2165-4afe-98c0-f89345ad11be)
+
+From the results we can try to crack the hash using md5.
+
+Let's crack the hash using the following command: 
+
+    $ hashcat -m 0 '8eb8e307a6d649bc7fb51443a06a216f' rockyou.txt -o solved
+
+![Näyttökuva 2023-09-21 111528](https://github.com/marissakirjonen/informationSecurity/assets/142782994/41e8c2a8-9797-47e4-bf94-314ca882cfb4)
+
+Here's a screenshot from the guidelines used, which explains what the command means:
+
+![Näyttökuva 2023-09-22 123826](https://github.com/marissakirjonen/informationSecurity/assets/142782994/72fba622-490d-425d-a3b4-555e40cb7618)
+
+![Näyttökuva 2023-09-21 111609](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a5dc899b-f50e-44e8-8ca8-81858856bd0d)
+
+From this, we can see that the status of the hash is cracked! Additionally, we can see that the type if MD5, which is what we chose, and the target is the hash. We can see the speed as well, which was 12161 H/s (0.03ms).
+
+To see what the result is from the file, I used the following command: 
+
+    $ cat solved
 
 
+![Näyttökuva 2023-09-21 111539](https://github.com/marissakirjonen/informationSecurity/assets/142782994/f033163b-5309-4c83-b837-d4cea6ce357e)
 
-
-
-
-
-
+The result is february! 
 
 
 
