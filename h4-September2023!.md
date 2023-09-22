@@ -135,10 +135,28 @@ To see what the result is from the file, I used the following command:
 The result is february! 
 
 
+##
+
+### Gone Phising: Create a Phising Email
+
+My idea for a phishing email relates to LinkedIn. The email would alert the user of an unknown device accessing their account, and that their password should be changed in order to prevent malicious attacks. 
+
+The first step would be to create an email which closely resembles genuine LinkedIn emails. The tactic used is psychological: worrying the user of unauthorized access to their account. The email exudes a sense of reputability by the inclusion of commonly used elements of LinkedIn emails. Additionally, it creates a sense of urgency for the user, as it’s not wanted to fall victim to unauthorized access to their account.
+
+For the technical part, the email would contain a link (button) redirecting them to a page resembling the LinkedIn’s login page. On this page, the user would need to enter their login credentials to “change their password”. 
+
+I figured out what type of structure is typically used in LinkedIn emails.
+
+Here are a few examples: 
 
 
+![Näyttökuva 2023-09-22 224411](https://github.com/marissakirjonen/informationSecurity/assets/142782994/18ac36a8-8f37-49c0-a01c-9ef114a6a850)
 
 
+Based on these, I made the following recreation of a LinkedIn email with my modifications. 
+
+
+![Näyttökuva 2023-09-22 224606](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a306145f-4858-4944-9d9b-ab1e3bef6bbb)
 
 
 
