@@ -112,16 +112,19 @@ Let's crack the hash using the following command:
 
     $ hashcat -m 0 '8eb8e307a6d649bc7fb51443a06a216f' rockyou.txt -o solved
 
-![Näyttökuva 2023-09-21 111528](https://github.com/marissakirjonen/informationSecurity/assets/142782994/41e8c2a8-9797-47e4-bf94-314ca882cfb4)
-
 Here's a screenshot from the guidelines used, which explains what the command means:
 
 ![Näyttökuva 2023-09-22 123826](https://github.com/marissakirjonen/informationSecurity/assets/142782994/72fba622-490d-425d-a3b4-555e40cb7618)
+
+Result of the command:
+
+![Näyttökuva 2023-09-21 111528](https://github.com/marissakirjonen/informationSecurity/assets/142782994/41e8c2a8-9797-47e4-bf94-314ca882cfb4)
 
 ![Näyttökuva 2023-09-21 111609](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a5dc899b-f50e-44e8-8ca8-81858856bd0d)
 
 From this, we can see that the status of the hash is cracked! Additionally, we can see that the type if MD5, which is what we chose, and the target is the hash. We can see the speed as well, which was 12161 H/s (0.03ms).
 
+## 
 To see what the result is from the file, I used the following command: 
 
     $ cat solved
