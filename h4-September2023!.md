@@ -41,7 +41,7 @@ Common attack methods include:
 -	**Site Cloning**, where duplicates of websites are developed mainly for stealing credentials of the user. It was pointed out that when site cloning, Full Qualified Domain Names (FQDN) and HTTPS should be used.
 -	**IDN Homography Attack**, where Punycode is used to register domains with foreign chars that are similar to common ASCII chars. 
 
-The most affective methods of phishing include package delivery messages, mail from ServiceDesk/IT department, mimicking platforms like LinkedIn, Gmail or Dropbox, or simply adversaries finding something relevant to the company whether that be IPOs, marketing campaigns or even Christmas party plans to exploit. 
+The most effective methods of phishing include package delivery messages, mail from ServiceDesk/IT department, mimicking platforms like LinkedIn, Gmail or Dropbox, or simply adversaries finding something relevant to the company whether that be IPOs, marketing campaigns or even Christmas party plans to exploit. 
 
 To protect yourself from phishing, it’s important to implement SPF, DKIM and DMARC, as well as keeping domains safe by securing similar-looking domains ensuring adversaries cannot use these to their advantage. Additionally, educating users to recognize common attempts, securing infrastructure, and utilizing tools like x0rz phishing catcher, which detects malicious phishing domains similar to own domain. 
 
