@@ -1,7 +1,7 @@
 ### Summary of Schneiner 2015: Applied Cryptography
 
 #### [2.3 One-Way Functions](https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003)
-
+ 
 One-way functions are fundamental to public-key cryptography. They are easy to compute one-way but are significantly harder to reverse. For instance, computing f(x) when given x is simple, but more challenging if only given f(x). Another practical example would be breaking a plate, which is easy to break, but hard to reassemble. 
 
 The article mentions that from a mathematical perspective, there is no proof that one-way functions exist or can be constructed. They have proceeded to explain them in the article despite this as some functions seemingly operate as one-way. 
