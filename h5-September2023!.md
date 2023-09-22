@@ -62,17 +62,16 @@ I used the following commands. I already had Hashcat downloaded, so the terminal
 
 ![Näyttökuva 2023-09-21 110516](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d8d8442a-02ea-4acc-b659-1e84f5587bed)
 
-## 
-Next I created a new directory using these commands: 
+
+
+I created a new directory using these commands (I had created the same file previously):
 
     $ mkdir hashed
     $ cd hashed
 
 ![Näyttökuva 2023-09-21 110540](https://github.com/marissakirjonen/informationSecurity/assets/142782994/af32c581-c387-43d0-86f0-a59134f21dec)
 
-(I had created the same file previously)
 
-##
 Next I used rockyou dictionary as recommended, using these commands: 
 
     $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
@@ -93,6 +92,23 @@ Lastly you can see that it contains over 14 million words:
 
 ![Näyttökuva 2023-09-21 110940](https://github.com/marissakirjonen/informationSecurity/assets/142782994/8de447b4-7f6e-403b-b2df-aa97ff2666f1)
 
+
+Next we can test it with a simple hash that I got from the guidelines above. 
+
+We need to identify the hash type to crack using the following command: 
+
+    $ hashid -m 6b1628b016dff46e6fa35684be6acc96
+
+Then we crack and show the hash with the following commands:
+
+    $ hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved
+    $ cat solved 
+
+The cat colved command wasn't showing the result, so I used the next command to display the result: 
+
+    $ hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show
+
+![Näyttökuva 2023-09-22 230146](https://github.com/marissakirjonen/informationSecurity/assets/142782994/9c012409-bb30-4b91-8613-baaf9276d9c3)
 
 ##
 
@@ -124,7 +140,8 @@ Result of the command:
 
 From this, we can see that the status of the hash is cracked! Additionally, we can see that the type if MD5, which is what we chose, and the target is the hash. We can see the speed as well, which was 12161 H/s (0.03ms).
 
-## 
+
+
 To see what the result is from the file, I used the following command: 
 
     $ cat solved
@@ -157,6 +174,29 @@ Based on these, I made the following recreation of a LinkedIn email with my modi
 
 
 ![Näyttökuva 2023-09-22 224606](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a306145f-4858-4944-9d9b-ab1e3bef6bbb)
+
+
+##
+
+### Voluntary: Compile John the Ripper, Jumbo version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
