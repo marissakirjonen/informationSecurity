@@ -141,7 +141,7 @@ The result is february!
 
 My idea for a phishing email relates to LinkedIn. The email would alert the user of an unknown device accessing their account, and that their password should be changed in order to prevent malicious attacks. 
 
-The first step would be to create an email which closely resembles genuine LinkedIn emails. The tactic used is psychological: worrying the user of unauthorized access to their account. The email exudes a sense of reputability by the inclusion of commonly used elements of LinkedIn emails. Additionally, it creates a sense of urgency for the user, as it’s not wanted to fall victim to unauthorized access to their account.
+The first step would be to create an email which closely resembles genuine LinkedIn emails. The tactic used is psychological: worrying the user of unauthorized access to their account. The email exudes a sense of reputability by the inclusion of commonly used elements of LinkedIn emails. Additionally, it creates a sense of urgency for the user, as they wouldn't want to fall victim to unauthorized access to their account!
 
 For the technical part, the email would contain a link (button) redirecting them to a page resembling the LinkedIn’s login page. On this page, the user would need to enter their login credentials to “change their password”. 
 
