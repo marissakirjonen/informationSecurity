@@ -269,7 +269,7 @@ First, we need to extract the hash into a new file called tero.zip.hash with the
 
     $ $HOME/john/run/zip2john tero.zip >tero.zip.hash
 
-Optionallty, we can also look at the extracted hash with the next command: 
+Optionally, we can also look at the extracted hash with the next command: 
 
     $ cat tero.zip.hash
 
