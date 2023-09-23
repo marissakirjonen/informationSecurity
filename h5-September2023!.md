@@ -247,3 +247,53 @@ Let's run John now.
 
 
 Now John is downloaded, complied and running!
+
+
+
+##
+
+### Voluntary: Crack a Zip File Password
+
+
+Now with John running, we can test the setup. I downloaded the sample ZIP file from the same [guidelines](https://terokarvinen.com/2023/crack-file-password-with-john/) I used in the previous exercise. 
+
+
+As seen from the screenshot, it's possible to try and open the file with the command below, however it obviously requires the password that we don't have.. yet. So, let's try and crack the ZIP password. 
+
+    $ unzip tero.zip
+
+![Näyttökuva 2023-09-23 093932](https://github.com/marissakirjonen/informationSecurity/assets/142782994/18758688-0213-41f8-ab7a-cb2e62337704)
+
+
+First, we need to extract the hash into a new file called tero.zip.hash with the command: 
+
+    $ $HOME/john/run/zip2john tero.zip >tero.zip.hash
+
+Optionallty, we can also look at the extracted hash with the next command: 
+
+    $ cat tero.zip.hash
+
+![Näyttökuva 2023-09-23 094221](https://github.com/marissakirjonen/informationSecurity/assets/142782994/0ad2b7fe-060d-492f-b813-6f95c3ae2407)
+
+
+Now, we can allow John to do a dictionary attack against the hash with the command: 
+
+    $ $HOME/john/run/john tero.zip.hash 
+
+
+![Näyttökuva 2023-09-23 094301](https://github.com/marissakirjonen/informationSecurity/assets/142782994/5cad1e1e-c57b-4ef6-9626-237179b02cb9)
+
+
+Here we can actually find the password, which is butterfly. Now we can use the same command used at the beginning to try and open the file:
+
+    $ unzip tero.zip  
+
+
+We can use the cat command to look at the extracted hash:
+
+    $ cat secretFiles/SECRET.md 
+
+
+![Näyttökuva 2023-09-23 094424](https://github.com/marissakirjonen/informationSecurity/assets/142782994/45f19179-48b7-42e9-a0f2-f5cbab134e08)
+
+
