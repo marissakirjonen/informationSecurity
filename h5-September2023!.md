@@ -180,24 +180,70 @@ Based on these, I made the following recreation of a LinkedIn email with my modi
 
 ### Voluntary: Compile John the Ripper, Jumbo version
 
+John the Ripper can crack passwords for encrypted files with dictionary attacks. I used the guidelines on [TeroKarvinen.com](https://terokarvinen.com/2023/crack-file-password-with-john/) for these next tasks. 
+
+To start we need to install prerequisites required for John. For some reason the longer command below wasn't working properly. It sent out a message that it was unable to locate package zlib-gst, so I removed that part of the command and tried again and it worked properly as seen on the screenshot.
+
+    $ sudo apt-get update
+    $ sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget
+
+![Näyttökuva 2023-09-23 092328](https://github.com/marissakirjonen/informationSecurity/assets/142782994/ff5b7d48-8681-478c-af96-92eb0d4abe4f)
+
+Here's the command I used:
+
+    $ sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev libbz2-1.0 libbz2-dev atool zip wget
+
+
+Now we can start to download and compile John! I started off with the command using git clone which copies the whole project, and to save download time --depth=1 copies just the latest versions of the files. 
+
+    $ git clone --depth=1 https://github.com/openwall/john.git
+
+![Näyttökuva 2023-09-23 093002](https://github.com/marissakirjonen/informationSecurity/assets/142782994/0aca58e4-dd2e-4f51-ae63-90deba848176)
+
+I got a message that the directory couldn't be created as there was no space on my device, so I used the following commands to clean up some space. Ignore the typo in the screenshot, I fixed that afterwards :)
+
+    $ sudo apt-get clean
+    $ sudo apt-get autoremove
+
+![Näyttökuva 2023-09-23 093002](https://github.com/marissakirjonen/informationSecurity/assets/142782994/9b641b86-310f-492b-9f9c-e701431d8d63)
 
 
 
+After cleaning up some space, the command worked: 
+
+![Näyttökuva 2023-09-23 093014](https://github.com/marissakirjonen/informationSecurity/assets/142782994/2889ddd1-8de0-45f3-ad4a-dcf340c0f8b7)
 
 
 
+Next, I used the following commands, where cd = change directory (move to the location you want) & ./configure checks that your system has the requirements for installing a software and creates a Makefile for 'make' command. This needs to be run again if other dependencies are installed in the future. 
+
+    $ cd john/src/	
+    $ ./configure
 
 
+![Näyttökuva 2023-09-23 093152](https://github.com/marissakirjonen/informationSecurity/assets/142782994/44f2bd4c-5bd9-4bd5-a217-e7809e71f5c7)
+
+After running these, the next step was to do the compliation. The command was printed at the end of the previous output, which I copied:
+
+    $ make -s clean && make -sj4
+
+![Näyttökuva 2023-09-23 093302](https://github.com/marissakirjonen/informationSecurity/assets/142782994/5f974e7f-fb74-490f-9a6d-c9d75715f28b)
 
 
+Once the compliation of John was completed we can use the following commands to find the new executables and scripts in run/ and run John!
+
+    $ cd ../run/
+    $ ls -1
+    $ cd
+
+![Näyttökuva 2023-09-23 093532](https://github.com/marissakirjonen/informationSecurity/assets/142782994/4f06801e-6c0c-4ed8-a96c-bc05cdb3a54d)
 
 
+Let's run John now.
+
+    $ $HOME/john/run/john 
+
+![Näyttökuva 2023-09-23 093652](https://github.com/marissakirjonen/informationSecurity/assets/142782994/6be333a4-1a22-4129-a515-2db6a0ff761c)
 
 
-
-
-
-
-
-
-
+Now John is downloaded, complied and running!
