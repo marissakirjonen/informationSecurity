@@ -51,20 +51,27 @@ Mistakes made by users on Tor are the reasons why they are discovered. Settings 
 
 The first step for installing Tor, was to install the Browser Bundle off [Tor Project](https://www.torproject.org/download/). I installed the Linux version on my VM.
 
-![Näyttökuva 2023-09-29 165708](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d7141ab3-7abf-43a3-9a03-af0e07bbd5cf)
+![Näyttökuva 2023-09-29 165708](https://github.com/marissakirjonen/informationSecurity/assets/142782994/c763763a-25f7-46be-8ee6-11fd208f0644)
+
+![Näyttökuva 2023-09-29 170326](https://github.com/marissakirjonen/informationSecurity/assets/142782994/e5bffa48-3bee-43f5-b6b8-7447e932065c)
 
 
 After a successful installation, find the bundle in your files and extract the files. 
 
-![Näyttökuva 2023-09-26 201302](https://github.com/marissakirjonen/informationSecurity/assets/142782994/0ccd72c7-f623-414a-83b1-20229e2afe32)
+![Näyttökuva 2023-09-29 174939](https://github.com/marissakirjonen/informationSecurity/assets/142782994/037dd7d9-4892-47e4-97cc-676a85f7d56b)
+
+After extraction, the browser file will appear, which you need to click to find the browser. 
+
+![Näyttökuva 2023-09-29 175004](https://github.com/marissakirjonen/informationSecurity/assets/142782994/7e9d4fb3-264c-4d5a-bf11-fe7aeba0b1da)
 
 
 Now you can start the browser!
 
-![Näyttökuva 2023-09-26 201323](https://github.com/marissakirjonen/informationSecurity/assets/142782994/09284743-e20b-4110-93cc-33ba30c39ffd)
+![Näyttökuva 2023-09-29 175014](https://github.com/marissakirjonen/informationSecurity/assets/142782994/8c1ae077-7a04-41d4-afba-809827ebcdb3)
 
+That's it, installation is completed. Click connect to connect to the Tor browser. 
 
-That's it, quick and simple to install Tor. 
+![Näyttökuva 2023-09-29 175038](https://github.com/marissakirjonen/informationSecurity/assets/142782994/97422985-5acd-47bd-9c52-0d898729f7b0)
 
 
 
