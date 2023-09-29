@@ -17,7 +17,7 @@
 -	Running a Tor relay/“routers”/”nodes”  is not illegal under US law
 
 5.	Tor is easy to use
--	You can download the pre-configured Tor Brower Bundle for [here](https://www.torproject.org/download/) and then start browsing!
+-	You can download the pre-configured Tor Browser Bundle for [here](https://www.torproject.org/download/) and then start browsing!
 -	Another possibility is to run Tor with [Tails]( https://tails.net/), a live operating system, running on a DVD or thumb drive, that routes your internet connection through Tor. 
 
 6.	Tor is not as slow as you think
@@ -45,6 +45,39 @@ In onion routing, the connection moves through multiple servers. The messages an
 How it works: Let’s say this message will go through three nodes. The first server, node 1, has the address of node 2 and key 1. Node 1 decrypts message using key 1, because it doesn’t have all the keys, node 1 cannot read the encrypted file, so it sends it to node 2. Node 2 has key 2 and the addresses of node 1 (input node) and node 3 (exit node). Node 2 decrypts the message using key 2, it’s still encrypted, so it sends it to node 3, the exit node. Node 3 decrypts the message using key 3, which is the “last layer of the onion”, and the message is passed on to the destination server. The response goes through the same process but adding layers of encryption instead. Essentially throughout the process of going through each node, one layer of encryption is removed (or added), therefore one layer of the onion is peeled (or added back). The core of the onion, the message, is not revealed until the end, which is why nodes cannot see the actual message. 
 
 Mistakes made by users on Tor are the reasons why they are discovered. Settings of the browser should not be changed, as this can result in an accidental leak. A few examples include, allowing location sharing, installing plugins, and allowing scripts and java to run on the browser. 
+
+##
+## Installing Tor
+
+The first step for installing Tor, was to install the Browser Bundle off [Tor Project](https://www.torproject.org/download/). I installed the Linux version on my VM.
+![Näyttökuva 2023-09-29 165708](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d7141ab3-7abf-43a3-9a03-af0e07bbd5cf)
+
+
+After a successful installation, find the bundle in your files and extract the files. 
+![Näyttökuva 2023-09-26 201302](https://github.com/marissakirjonen/informationSecurity/assets/142782994/0ccd72c7-f623-414a-83b1-20229e2afe32)
+
+Now you can start the browser!
+![Näyttökuva 2023-09-26 201323](https://github.com/marissakirjonen/informationSecurity/assets/142782994/09284743-e20b-4110-93cc-33ba30c39ffd)
+
+That's it, quick and simple to install Tor. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
