@@ -75,18 +75,26 @@ That's it, installation is completed. Click connect to connect to the Tor browse
 
 
 
+## Browse Tor
+
+The search engine I used was ahmia.fi. I used the hidden wiki page to find different links to onion sites. 
+
+![Näyttökuva 2023-09-29 181449](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a48f0ea1-59ce-41f8-a25f-ace57bd1700f)
 
 
+Some marketplaces I found: 
 
 
+![Näyttökuva 2023-09-29 204732](https://github.com/marissakirjonen/informationSecurity/assets/142782994/4a602f82-31ab-43af-8cfa-781b52b05ec3)
+
+![Näyttökuva 2023-09-29 204229](https://github.com/marissakirjonen/informationSecurity/assets/142782994/30fe2ae4-05f9-45a9-b24a-0b89e8996516)
+
+![Näyttökuva 2023-09-29 184710](https://github.com/marissakirjonen/informationSecurity/assets/142782994/095d5812-9990-4a0b-9331-02be872c53dc)
 
 
+A forum for insider trading:
 
-
-
-
-
-
+![Näyttökuva 2023-09-29 205148](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a3fa8232-ddb7-4fae-83c7-5e15d0c69ec3)
 
 
 
