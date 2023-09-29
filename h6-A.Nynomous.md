@@ -50,14 +50,19 @@ Mistakes made by users on Tor are the reasons why they are discovered. Settings 
 ## Installing Tor
 
 The first step for installing Tor, was to install the Browser Bundle off [Tor Project](https://www.torproject.org/download/). I installed the Linux version on my VM.
+
 ![Näyttökuva 2023-09-29 165708](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d7141ab3-7abf-43a3-9a03-af0e07bbd5cf)
 
 
 After a successful installation, find the bundle in your files and extract the files. 
+
 ![Näyttökuva 2023-09-26 201302](https://github.com/marissakirjonen/informationSecurity/assets/142782994/0ccd72c7-f623-414a-83b1-20229e2afe32)
 
+
 Now you can start the browser!
+
 ![Näyttökuva 2023-09-26 201323](https://github.com/marissakirjonen/informationSecurity/assets/142782994/09284743-e20b-4110-93cc-33ba30c39ffd)
+
 
 That's it, quick and simple to install Tor. 
 
