@@ -142,10 +142,24 @@ HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA 
 
 ### Demonstrate a Password Manager: KeePassXC
 
-This is a random user screenshot from [Medium]( https://gagarine.medium.com/open-source-password-manager-a-viable-alternative-to-lastpass-and-dashlane-435ad92ff716) to show you what KeePassXC looks like, since I didn’t want to take a screenshot of my own manager :)
+This is a random user screenshot from [Medium]( https://gagarine.medium.com/open-source-password-manager-a-viable-alternative-to-lastpass-and-dashlane-435ad92ff716) to show you what KeePassXC looks like, since I blocked most of my own manager.
 
 ![Näyttökuva 2023-09-16 225115](https://github.com/marissakirjonen/informationSecurity/assets/142782994/826d2ffc-5414-4385-b7f3-994367decbf4)
 
+From the view you see on the screenshot, you could press Ctrl + N to create a new password for an account (or press the addition button on the top bar).
+After this, the view is the following screenshot. You can add the username, website, and manually write a password for this. 
+
+![Näyttökuva 2023-09-30 110759](https://github.com/marissakirjonen/informationSecurity/assets/142782994/01401be5-6dd7-4da1-8067-5f949cf41238)
+
+Optionally, you are able to use the password generator tool, which can be found right next to where you would type in the password (the square button). This is what I personally prefer always:
+
+![Näyttökuva 2023-09-30 110847](https://github.com/marissakirjonen/informationSecurity/assets/142782994/b2066f4d-5ad0-4721-9985-323b2087858e)
+
+I'll demonstrate the use for my Adlibris account!
+
+![keepass](https://github.com/marissakirjonen/informationSecurity/assets/142782994/f1d23e82-904b-4fa4-9a55-8da42df26495)
+
+I clicked the Adlibris account and copied the password to the clipboard and inserted it to the password section on the Adlibris webpage. It's very simple to use! You can optionally add a chrome extension, where it would automatically link the password to the account, however I personally don't have this installed. 
 
 Essentially, the user would have all their usernames and passwords linked into this platform that is downloaded onto the user’s machine (not in cloud, unless manually added). This is all secured under a master password as well, which you set up when you have downloaded KeePassXC. With this, you can automatically pull usernames and passwords directly into the website you are trying to login to. There is also a browser extension available!
 
