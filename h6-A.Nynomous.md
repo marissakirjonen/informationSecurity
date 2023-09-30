@@ -8,7 +8,7 @@
 
 2.	Tor is not only used by criminals 
 -	Many activists use Tor for avoiding censorship, and journalists use Tor for research and secure communication with sources 
-
+ 
 3.	Tor does not have a military backdoor
 -	Despite the initial development being funded by the military, it has no backdoor in the software.
 -	Open-source
