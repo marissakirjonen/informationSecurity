@@ -97,7 +97,10 @@ A forum for insider trading:
 ![Näyttökuva 2023-09-29 205148](https://github.com/marissakirjonen/informationSecurity/assets/142782994/a3fa8232-ddb7-4fae-83c7-5e15d0c69ec3)
 
 
+I also found tor.taxi, which has different types of onion links you can explore:
 
+
+![Näyttökuva 2023-09-29 180856](https://github.com/marissakirjonen/informationSecurity/assets/142782994/b78f2c51-c824-4291-ba97-6b85e85bbd12)
 
 
 
