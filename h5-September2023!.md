@@ -54,9 +54,11 @@ To install Hashcat, I opened VirtualBox terminal and followed the guidelines on 
 
 I used the following commands. I already had Hashcat downloaded, so the terminal message explains this in the screenshots. 
 
-    $ sudo apt-get update
-    $ sudo apt-get -y install hashid hashcat wget
+    $ sudo apt-get update (updates package lsts and their dependencies)
+    $ sudo apt-get -y install hashid hashcat wget (sudo runs the command with root privileges; -y automatically answers yes to any prompts for a smooth installation; install to install the packages; hashid is a tool to tell between types of hashes; hashcat is where we are cracking the hashes; wget is for downloading the commands off the internet)
 
+What does this command mean?
+- 
 
 ![Näyttökuva 2023-09-21 110508](https://github.com/marissakirjonen/informationSecurity/assets/142782994/ca5612ab-1f81-46fe-9b53-02e392596e6f)
 
@@ -66,29 +68,29 @@ I used the following commands. I already had Hashcat downloaded, so the terminal
 
 I created a new directory using these commands (I had created the same file previously):
 
-    $ mkdir hashed
-    $ cd hashed
+    $ mkdir hashed ("make directory" named hashed)
+    $ cd hashed ("change directory" to hashed; this changes the current working directory to hashed)
 
 ![Näyttökuva 2023-09-21 110540](https://github.com/marissakirjonen/informationSecurity/assets/142782994/af32c581-c387-43d0-86f0-a59134f21dec)
 
 
 Next I used rockyou dictionary as recommended, using these commands: 
 
-    $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
-    $ tar xf rockyou.txt.tar.gz
-    $ rm rockyou.txt.tar.gz
+    $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-   Databases/rockyou.txt.tar.gz (downloads files from github, "rockyou.txt.tar.gz", to the current directory)
+    $ tar xf rockyou.txt.tar.gz (tar is a tool for creating and extracting files; x = extract; f = filename; this command is extracting the file rockyou.txt.tar.gz to the current directory)
+    $ rm rockyou.txt.tar.gz (rm = remove; to remove files; removes rockyou.txt.tar.gz, leaving only the extracted contents)
 
 ![Näyttökuva 2023-09-21 110702](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d440ed49-545f-4bc1-afa5-70100c0ef68a)
 
-Next I used this command:
+This next command will display the beginning of the file, first 10 lines:
 
     $ head rockyou.txt
 
 ![Näyttökuva 2023-09-21 110825](https://github.com/marissakirjonen/informationSecurity/assets/142782994/1efbb944-9c89-409f-87db-12b8a0721b9f)
 
-Lastly you can see that it contains over 14 million words:
+Lastly you can see that it contains over 14 million words with this command:
     
-    $ wc -l rockyou.txt 
+    $ wc -l rockyou.txt ("-1" indicates i want to count the number of lines)
 
 ![Näyttökuva 2023-09-21 110940](https://github.com/marissakirjonen/informationSecurity/assets/142782994/8de447b4-7f6e-403b-b2df-aa97ff2666f1)
 
@@ -97,16 +99,16 @@ Next we can test it with a simple hash that I got from the guidelines above.
 
 We need to identify the hash type to crack using the following command: 
 
-    $ hashid -m 6b1628b016dff46e6fa35684be6acc96
+    $ hashid -m 6b1628b016dff46e6fa35684be6acc96 ("-m" displays sample hashes)
 
 Then we crack and show the hash with the following commands:
 
-    $ hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved
-    $ cat solved 
+    $ hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved ("-m 0" specifies the hash type; 0 represents MD5 hashes; "-o solved" outputs the results to the file named solved=
+    $ cat solved (displays the file named solved)
 
 The cat colved command wasn't showing the result, so I used the next command to display the result: 
 
-    $ hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show
+    $ hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show ("--show displays passwords from its previous sessions)
 
 ![Näyttökuva 2023-09-22 230146](https://github.com/marissakirjonen/informationSecurity/assets/142782994/9c012409-bb30-4b91-8613-baaf9276d9c3)
 
@@ -187,6 +189,8 @@ To start we need to install prerequisites required for John. For some reason the
     $ sudo apt-get update
     $ sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget
 
+    Here we are just updating and then installing a lot of utilities and libraries!
+
 ![Näyttökuva 2023-09-23 092328](https://github.com/marissakirjonen/informationSecurity/assets/142782994/ff5b7d48-8681-478c-af96-92eb0d4abe4f)
 
 Here's the command I used:
@@ -200,7 +204,7 @@ Now we can start to download and compile John! I started off with the command us
 
 ![Näyttökuva 2023-09-23 093002](https://github.com/marissakirjonen/informationSecurity/assets/142782994/0aca58e4-dd2e-4f51-ae63-90deba848176)
 
-I got a message that the directory couldn't be created as there was no space on my device, so I used the following commands to clean up some space. Ignore the typo in the screenshot, I fixed that afterwards :)
+I got a message that the directory couldn't be created as there was no space on my device, so I used the following commands to clean up some disk space. Ignore the typo in the screenshot, I fixed that afterwards :)
 
     $ sudo apt-get clean
     $ sudo apt-get autoremove
@@ -223,23 +227,25 @@ Next, I used the following commands, where cd = change directory (move to the lo
 
 ![Näyttökuva 2023-09-23 093152](https://github.com/marissakirjonen/informationSecurity/assets/142782994/44f2bd4c-5bd9-4bd5-a217-e7809e71f5c7)
 
-After running these, the next step was to do the compliation. The command was printed at the end of the previous output, which I copied:
+After running these, the next step was to do the compliation. This command cleans up the space to remove any previously compiled files and then builds a new one with make -sj4, which means that it's using up to 4 cores to coompile so it speeds up the processThe command was printed at the end of the previous output, which I copied:
 
-    $ make -s clean && make -sj4
+    $ make -s clean && make -sj4 
+
+  
 
 ![Näyttökuva 2023-09-23 093302](https://github.com/marissakirjonen/informationSecurity/assets/142782994/5f974e7f-fb74-490f-9a6d-c9d75715f28b)
 
 
 Once the compliation of John was completed we can use the following commands to find the new executables and scripts in run/ and run John!
 
-    $ cd ../run/
-    $ ls -1
-    $ cd
+    $ cd ../run/ 
+    $ ls -1 (ls = list, so list contents on a new line, because of the -1)
+    $ cd (changes directory to the home directory, because it doesn't continue with any argument after cd)
 
 ![Näyttökuva 2023-09-23 093532](https://github.com/marissakirjonen/informationSecurity/assets/142782994/4f06801e-6c0c-4ed8-a96c-bc05cdb3a54d)
 
 
-Let's run John now.
+Let's run John now. Possibly just $HOME/run/john could've been used for this, as it is in the home directory, but nevertheless this is the command I used: 
 
     $ $HOME/john/run/john 
 
@@ -258,7 +264,7 @@ Now John is downloaded, complied and running!
 Now with John running, we can test the setup. I downloaded the sample ZIP file from the same [guidelines](https://terokarvinen.com/2023/crack-file-password-with-john/) I used in the previous exercise. 
 
 
-As seen from the screenshot, it's possible to try and open the file with the command below, however it obviously requires the password that we don't have.. yet. So, let's try and crack the ZIP password. 
+As seen from the screenshot, it's possible to try and open the file with the command below, however it obviously requires the password that we don't have.. yet. So, let's try and crack the ZIP password with the unzip command. 
 
     $ unzip tero.zip
 
@@ -269,7 +275,7 @@ First, we need to extract the hash into a new file called tero.zip.hash with the
 
     $ $HOME/john/run/zip2john tero.zip >tero.zip.hash
 
-Optionally, we can also look at the extracted hash with the next command: 
+Optionally, we can also look at the extracted hash with the next command, where cat (concatenate) displays file content : 
 
     $ cat tero.zip.hash
 
