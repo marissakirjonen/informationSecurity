@@ -55,7 +55,14 @@ To install Hashcat, I opened VirtualBox terminal and followed the guidelines on 
 I used the following commands. I already had Hashcat downloaded, so the terminal message explains this in the screenshots. 
 
     $ sudo apt-get update (updates package lsts and their dependencies)
-    $ sudo apt-get -y install hashid hashcat wget (sudo runs the command with root privileges; -y automatically answers yes to any prompts for a smooth installation; install to install the packages; hashid is a tool to tell between types of hashes; hashcat is where we are cracking the hashes; wget is for downloading the commands off the internet)
+    $ sudo apt-get -y install hashid hashcat wget
+
+- sudo runs the command with root privileges
+- -y automatically answers yes to any prompts for a smooth installation
+- install to install the packages
+- hashid is a tool to tell between types of hashes
+- hashcat is where we are cracking the hashes
+- wget is for downloading the commands off the internet)
 
 What does this command mean?
 - 
@@ -76,9 +83,19 @@ I created a new directory using these commands (I had created the same file prev
 
 Next I used rockyou dictionary as recommended, using these commands: 
 
-    $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-   Databases/rockyou.txt.tar.gz (downloads files from github, "rockyou.txt.tar.gz", to the current directory)
-    $ tar xf rockyou.txt.tar.gz (tar is a tool for creating and extracting files; x = extract; f = filename; this command is extracting the file rockyou.txt.tar.gz to the current directory)
-    $ rm rockyou.txt.tar.gz (rm = remove; to remove files; removes rockyou.txt.tar.gz, leaving only the extracted contents)
+    $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-   Databases/rockyou.txt.tar.gz 
+    $ tar xf rockyou.txt.tar.gz 
+    $ rm rockyou.txt.tar.gz 
+
+Command 1: downloads files from github, "rockyou.txt.tar.gz", to the current directory)
+
+Command 2: extracting the file rockyou.txt.tar.gz to the current directory
+- tar is a tool for creating and extracting files
+- x = extract
+- f = filename
+  
+Command 3:removes rockyou.txt.tar.gz, leaving only the extracted contents
+- rm = remove; to remove files
 
 ![Näyttökuva 2023-09-21 110702](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d440ed49-545f-4bc1-afa5-70100c0ef68a)
 
@@ -90,7 +107,9 @@ This next command will display the beginning of the file, first 10 lines:
 
 Lastly you can see that it contains over 14 million words with this command:
     
-    $ wc -l rockyou.txt ("-1" indicates i want to count the number of lines)
+    $ wc -l rockyou.txt 
+
+- "-1" indicates i want to count the number of lines
 
 ![Näyttökuva 2023-09-21 110940](https://github.com/marissakirjonen/informationSecurity/assets/142782994/8de447b4-7f6e-403b-b2df-aa97ff2666f1)
 
@@ -103,12 +122,21 @@ We need to identify the hash type to crack using the following command:
 
 Then we crack and show the hash with the following commands:
 
-    $ hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved ("-m 0" specifies the hash type; 0 represents MD5 hashes; "-o solved" outputs the results to the file named solved=
-    $ cat solved (displays the file named solved) 
+    $ hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved 
+    $ cat solved 
+
+Command 1: 
+- "-m 0" specifies the hash type
+- 0 represents MD5 hashes
+- "-o solved" outputs the results to the file named solved
+
+Command 2: displays the file named solved
 
 The cat colved command wasn't showing the result, so I used the next command to display the result: 
 
-    $ hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show ("--show displays passwords from its previous sessions)
+    $ hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show 
+    
+ - --show displays passwords from its previous sessions
 
 ![Näyttökuva 2023-09-22 230146](https://github.com/marissakirjonen/informationSecurity/assets/142782994/9c012409-bb30-4b91-8613-baaf9276d9c3)
 
@@ -239,8 +267,11 @@ After running these, the next step was to do the compliation. This command clean
 Once the compliation of John was completed we can use the following commands to find the new executables and scripts in run/ and run John!
 
     $ cd ../run/ 
-    $ ls -1 (ls = list, so list contents on a new line, because of the -1)
-    $ cd (changes directory to the home directory, because it doesn't continue with any argument after cd)
+    $ ls -1 
+    $ cd 
+
+ - ls = list, so list contents on a new line, because of the -1)
+ - cd: changes directory to the home directory, because it doesn't continue with any argument after cd
 
 ![Näyttökuva 2023-09-23 093532](https://github.com/marissakirjonen/informationSecurity/assets/142782994/4f06801e-6c0c-4ed8-a96c-bc05cdb3a54d)
 
