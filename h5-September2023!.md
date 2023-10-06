@@ -104,7 +104,7 @@ We need to identify the hash type to crack using the following command:
 Then we crack and show the hash with the following commands:
 
     $ hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved ("-m 0" specifies the hash type; 0 represents MD5 hashes; "-o solved" outputs the results to the file named solved=
-    $ cat solved (displays the file named solved)
+    $ cat solved (displays the file named solved) 
 
 The cat colved command wasn't showing the result, so I used the next command to display the result: 
 
