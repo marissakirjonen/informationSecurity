@@ -67,8 +67,8 @@ OWASP. 2021. A03:2021 – Injection. URL: https://owasp.org/Top10/A03_2021-Injec
 ### A) Install WebGoat
 
 I started off by installing Java. I opened the terminal by pressing ctrl + alt + T then used the following commands: 
-- $ sudo apt-get update
-- $ sudo apt-get -y install openjdk-17-jre ufw wget bash-completion
+- $ sudo apt-get update (downloads the package lists from the repositories and "updates" them- This shows the newest information of the packages and their dependencie)
+- $ sudo apt-get -y install openjdk-17-jre ufw wget bash-completion (installing JDK17, which is a open-source of Java SE Platform)
   
 
 ![Näyttökuva 2023-09-01 102114](https://github.com/marissakirjonen/informationSecurity/assets/142782994/d7c486a5-79f4-4ed5-9031-4f4f6a011413)
@@ -83,6 +83,9 @@ Next I enabled a firewall using the command:
 The next step was to install and run WebGoat. I did this by using the following commands in the terminal: 
 - $ wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar
 - $ java -jar webgoat-server-8.0.0.M26.jar
+
+The first command specifically downloads files from terokarvinen.com with the "wget" portion. The .jar file points to the specific file of webgoat wanting to download: "8.0.0M26.jar". 
+The second command runs the just downloaded .jar file using the java runtime.
 
 ![Näyttökuva 2023-09-01 103704](https://github.com/marissakirjonen/informationSecurity/assets/142782994/f2f82f3a-1db0-41cc-ac69-e05fb6fc0bf3)
 
