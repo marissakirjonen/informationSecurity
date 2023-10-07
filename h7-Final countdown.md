@@ -16,7 +16,7 @@ First we start off with updating any packages and their dependencies with the co
 
 ![Näyttökuva 2023-10-06 212700](https://github.com/marissakirjonen/informationSecurity/assets/142782994/56566062-975b-4370-8eaa-3c05034a90cd)
 
-Now we can install the ufw ("Uncomplicated Firewall") package using this command: 
+Now we can install the ufw ("Uncomplicated Firewall") package using this command:  
 
     sudo apt-get install ufw
 
